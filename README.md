@@ -1,4 +1,4 @@
-# <p align="center"><img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/banner.png" alt="Varun Raj Banner" width="100%"></p>
+# <p align="center"><img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/banner.svg" alt="Varun Raj Banner" width="100%"></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/varun-raj-iiitr" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -18,6 +18,29 @@ I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian 
 *   🔭 **Open Source Contributor** at [ComfyUI](https://github.com/comfyanonymous/ComfyUI), working on generative AI core workflow optimization.
 *   🐧 **Linux & Systems Enthusiast**, obsessed with modular architectures (like LEGO) and Unix system efficiency.
 *   ⚡ **Deeply interested** in computer vision, time-series forecasting, and Solidity smart contracts.
+
+---
+
+### 🧬 Core Pipeline Architecture
+
+```
+[ Raw Data Ingestion ] ➔ [ Data Engineering & ETL (Pandas/NumPy) ]
+                                     │
+                                     ▼
+                      [ Unsupervised Clustering (K-Means) ]
+                                     │
+       ┌─────────────────────────────┴─────────────────────────────┐
+       ▼                                                           ▼
+[ Demand Forecasting Pipeline ]                             [ Smart Contract Minting ]
+(PyTorch / Scikit-learn Time Series)                         (Solidity / Ethereum dApp)
+       │                                                           │
+       ▼                                                           ▼
+[ API Service Layer (Node/Express) ]                        [ Decentralized Verification ]
+       │                                                           │
+       └─────────────────────────────┬─────────────────────────────┘
+                                     ▼
+                       [ React.js Production UI ]
+```
 
 ---
 
@@ -52,6 +75,46 @@ I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian 
 
 ---
 
+### 📊 Engineering Skills & Dynamic Proficiency
+
+<strong>Python (PyTorch, TensorFlow, Pandas, Scikit-learn)</strong>
+<span style="float: right;">95%</span>
+<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
+  <tr>
+    <td style="width: 95%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
+    <td style="width: 5%; background: #0B0F19; height: 6px; padding: 0;"></td>
+  </tr>
+</table>
+
+<strong>C++ (System Architecture & Algorithmic Optimization)</strong>
+<span style="float: right;">85%</span>
+<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
+  <tr>
+    <td style="width: 85%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
+    <td style="width: 15%; background: #0B0F19; height: 6px; padding: 0;"></td>
+  </tr>
+</table>
+
+<strong>Solidity (Ethereum, Cryptographic Verification)</strong>
+<span style="float: right;">75%</span>
+<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
+  <tr>
+    <td style="width: 75%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
+    <td style="width: 25%; background: #0B0F19; height: 6px; padding: 0;"></td>
+  </tr>
+</table>
+
+<strong>MERN Stack (React.js, Node.js, Express, MongoDB)</strong>
+<span style="float: right;">80%</span>
+<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
+  <tr>
+    <td style="width: 80%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
+    <td style="width: 20%; background: #0B0F19; height: 6px; padding: 0;"></td>
+  </tr>
+</table>
+
+---
+
 ### 🚀 Production & Open-Source Projects
 
 *   **[ComfyUI Core Contribution](https://github.com/comfyanonymous/ComfyUI)**  
@@ -74,19 +137,26 @@ I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian 
 
 ### 📊 System Performance & Contributions
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RAJ-VARUN13&show_icons=true&title_color=00F3FF&icon_color=A0AEC0&text_color=E2E8F0&bg_color=0B0F19&border_color=1E293B&hide_border=false" alt="Varun Raj GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAJ-VARUN13&layout=compact&title_color=00F3FF&icon_color=A0AEC0&text_color=E2E8F0&bg_color=0B0F19&border_color=1E293B&hide_border=false" alt="Top Languages Card" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=dark&background=0B0F19&ring=00F3FF&fire=00F3FF&currStreakNum=00F3FF&sideNums=E2E8F0&sideLabels=A0AEC0&dates=A0AEC0&border=1E293B" alt="GitHub Streak Stats" width="97%" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=RAJ-VARUN13&show_icons=true&title_color=00F3FF&icon_color=A0AEC0&text_color=E2E8F0&bg_color=0B0F19&border_color=1E293B&hide_border=false" alt="Varun Raj GitHub Stats" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAJ-VARUN13&layout=compact&title_color=00F3FF&icon_color=A0AEC0&text_color=E2E8F0&bg_color=0B0F19&border_color=1E293B&hide_border=false" alt="Top Languages Card" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=dark&background=0B0F19&ring=00F3FF&fire=00F3FF&currStreakNum=00F3FF&sideNums=E2E8F0&sideLabels=A0AEC0&dates=A0AEC0&border=1E293B" alt="GitHub Streak Stats" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 🐍 Code Activity Matrix
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="97%">
+  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
 </p>
