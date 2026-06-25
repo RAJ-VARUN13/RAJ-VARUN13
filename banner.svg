@@ -1,100 +1,94 @@
-<svg viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradients -->
   <defs>
-    <!-- Background grid pattern -->
-    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
-      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#161E2E" stroke-width="0.8"/>
-    </pattern>
-    <!-- Linear gradients for LEGO isometric blocks -->
-    <!-- Indian Tricolor Theme Gradients -->
-    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#04060D" />
+    </linearGradient>
+    
+    <!-- Saffron-White-Green Accent Line Gradient (Indian Theme) -->
+    <linearGradient id="indiaAccent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF9933" />
-      <stop offset="100%" stop-color="#CC6600" />
+      <stop offset="10%" stop-color="#FF9933" />
+      <stop offset="15%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#128807" />
+      <stop offset="100%" stop-color="#128807" stop-opacity="0.1" />
     </linearGradient>
-    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#128807" />
-      <stop offset="100%" stop-color="#095503" />
-    </linearGradient>
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+
+    <!-- Isometric Modular Nodes Gradient (Lego & AI nodes) -->
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F3FF" />
-      <stop offset="100%" stop-color="#008EA6" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#10B981" />
     </linearGradient>
-    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#374151" />
-      <stop offset="100%" stop-color="#1F2937" />
-    </linearGradient>
+    
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.6"/>
+    </pattern>
   </defs>
 
-  <!-- Deep Obsidian Dark Background -->
-  <rect width="800" height="200" fill="#0B0F17" rx="8"/>
-  <rect width="800" height="200" fill="url(#grid)" rx="8"/>
+  <!-- Deep Obsidian Background -->
+  <rect width="1000" height="240" fill="url(#bgGrad)" rx="12"/>
+  <rect width="1000" height="240" fill="url(#gridPattern)" rx="12"/>
 
-  <!-- Left Side: Modular Isometric LEGO/Blocks Architecture Design -->
-  <g transform="translate(45, 20)">
-    <!-- Base block 1 (Cyan) -->
-    <g transform="translate(40, 90)">
+  <!-- Tricolor Minimalist Accent Bar at top -->
+  <rect x="0" y="0" width="1000" height="4" fill="url(#indiaAccent)"/>
+
+  <!-- Left Side: Modular Isometric Neural Network Geometry (LEGO / AI System Architecture) -->
+  <g transform="translate(80, 50)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Grid Lines (Isometric Projection) -->
+    <path d="M 0 60 L 60 20 L 120 60 L 60 100 Z" stroke="#1E293B" fill="none"/>
+    <path d="M 60 20 L 60 -40 L 120 -80 L 120 60" stroke="#1E293B" fill="none" stroke-opacity="0.4"/>
+    
+    <!-- Connecting neural lines -->
+    <path d="M 60 100 L 60 20 L 120 60" stroke="url(#nodeGrad)" opacity="0.8"/>
+    <path d="M 0 60 L 60 20 L 60 -40" stroke="url(#nodeGrad)" opacity="0.6"/>
+    <path d="M 60 -40 L 120 -80" stroke="url(#nodeGrad)" opacity="0.5"/>
+
+    <!-- Lego-like Modular Isometric Block (Sleek Outline) -->
+    <g transform="translate(60, 20)">
       <!-- Top Face -->
-      <path d="M 0 -15 L 30 0 L 0 15 L -30 0 Z" fill="url(#cyanGrad)"/>
-      <circle cx="-12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="-12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <path d="M 0 -20 L 40 0 L 0 20 L -40 0 Z" fill="#0B132B" stroke="#00F3FF" stroke-width="2"/>
+      <!-- Studs on top of Lego block -->
+      <path d="M -15 -7 L -5 -2 L -15 3 L -25 -2 Z" fill="#1E293B" stroke="#00F3FF" stroke-width="1"/>
+      <path d="M 15 -7 L 25 -2 L 15 3 M 5 -2 Z" fill="#1E293B" stroke="#00F3FF" stroke-width="1"/>
+      <path d="M -0 -15 L 10 -10 L -0 -5 L -10 -10 Z" fill="#1E293B" stroke="#00F3FF" stroke-width="1"/>
+      <path d="M -0 5 L 10 10 L -0 15 L -10 10 Z" fill="#1E293B" stroke="#00F3FF" stroke-width="1"/>
       <!-- Left Face -->
-      <path d="M -30 0 L 0 15 L 0 45 L -30 30 Z" fill="#007A8F"/>
+      <path d="M -40 0 L 0 20 L 0 60 L -40 40 Z" fill="#070A13" stroke="#00F3FF" stroke-width="2"/>
       <!-- Right Face -->
-      <path d="M 0 15 L 30 0 L 30 30 L 0 45 Z" fill="#005D6E"/>
+      <path d="M 0 20 L 40 0 L 40 40 L 0 60 Z" fill="#0D1B2A" stroke="#00C0D4" stroke-width="2"/>
     </g>
 
-    <!-- Stacked block 2 (Saffron) -->
-    <g transform="translate(70, 45)">
-      <!-- Top Face -->
-      <path d="M 0 -15 L 30 0 L 0 15 L -30 0 Z" fill="url(#saffronGrad)"/>
-      <circle cx="-12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="-12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
-      <!-- Left Face -->
-      <path d="M -30 0 L 0 15 L 0 45 L -30 30 Z" fill="#B35900"/>
-      <!-- Right Face -->
-      <path d="M 0 15 L 30 0 L 30 30 L 0 45 Z" fill="#804000"/>
-    </g>
-
-    <!-- Stacked block 3 (Green) -->
-    <g transform="translate(10, 45)">
-      <!-- Top Face -->
-      <path d="M 0 -15 L 30 0 L 0 15 L -30 0 Z" fill="url(#greenGrad)"/>
-      <circle cx="-12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="-12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
-      <circle cx="12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
-      <!-- Left Face -->
-      <path d="M -30 0 L 0 15 L 0 45 L -30 30 Z" fill="#0A5B04"/>
-      <!-- Right Face -->
-      <path d="M 0 15 L 30 0 L 30 30 L 0 45 Z" fill="#053302"/>
-    </g>
-
-    <!-- Connector lines representing Linux kernel node connections / pipelines -->
-    <path d="M 40 90 L 70 45" stroke="#4B5563" stroke-width="1.5" stroke-dasharray="3 3"/>
-    <path d="M 40 90 L 10 45" stroke="#4B5563" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <!-- Additional Nodes representing AI & Data Streams -->
+    <circle cx="0" cy="60" r="5" fill="#10B981"/>
+    <circle cx="120" cy="60" r="5" fill="#3B82F6"/>
+    <circle cx="60" cy="-40" r="4" fill="#FF9933"/>
+    <circle cx="120" cy="-80" r="3" fill="#A0AEC0"/>
   </g>
 
-  <!-- Right Side: Clean Tech Typography & Philosophy -->
+  <!-- Right Side: Executive Typography & Corporate Aesthetic -->
   <!-- Name -->
-  <text x="210" y="75" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="1.5">VARUN RAJ</text>
+  <text x="320" y="90" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="1">VARUN RAJ</text>
   
-  <!-- Terminal Prompt / Subtitle -->
-  <text x="210" y="105" fill="#00F3FF" font-family="'Fira Code', Consolas, Monaco, 'Andale Mono', monospace" font-weight="600" font-size="16">~/data-science-ai-engineer</text>
+  <!-- Subtitle -->
+  <text x="320" y="122" fill="#00F3FF" font-family="'Fira Code', Consolas, Monaco, monospace" font-weight="600" font-size="16" letter-spacing="0.5">Data Science &amp; Artificial Intelligence Engineer</text>
   
-  <!-- Motto (Indian Tech Wisdom) -->
-  <text x="210" y="140" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, Devanagari, 'Segoe UI', sans-serif" font-size="14">योगः कर्मसु कौशलम् | Excellence in Action is Discipline</text>
+  <!-- Philosophy & Motto -->
+  <text x="320" y="155" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15">Building modular intelligence, system-level architecture, and open-source infrastructure.</text>
   
-  <!-- Linux kernel log mimic -->
-  <text x="210" y="168" fill="#4B5563" font-family="Consolas, Monaco, monospace" font-size="11">[ OK ] Initialized modular core: lego.sys, linux-x86_64, open-source.ko</text>
+  <!-- Sanskrit Motto (Tricolor highlighted) -->
+  <text x="320" y="185" fill="#E2E8F0" font-family="-apple-system, Devanagari, 'Segoe UI', sans-serif" font-weight="500" font-size="13" letter-spacing="0.5">योगः कर्मसु कौशलम् • Excellence in action is discipline</text>
 
-  <!-- Status indicator (Chinese Tech Minimal Accent) -->
-  <g transform="translate(730, 30)">
-    <circle cx="0" cy="0" r="5" fill="#10B981">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  <!-- System Online Status Indicator -->
+  <g transform="translate(930, 45)">
+    <circle cx="0" cy="0" r="4" fill="#10B981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <text x="-12" y="4" fill="#9CA3AF" font-family="monospace" font-size="10" text-anchor="end">ONLINE</text>
+    <text x="-12" y="3.5" fill="#64748B" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="1">SYS_ACTIVE</text>
   </g>
 </svg>
