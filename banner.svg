@@ -1,0 +1,100 @@
+<svg viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background grid pattern -->
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#161E2E" stroke-width="0.8"/>
+    </pattern>
+    <!-- Linear gradients for LEGO isometric blocks -->
+    <!-- Indian Tricolor Theme Gradients -->
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#CC6600" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#128807" />
+      <stop offset="100%" stop-color="#095503" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F3FF" />
+      <stop offset="100%" stop-color="#008EA6" />
+    </linearGradient>
+    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#374151" />
+      <stop offset="100%" stop-color="#1F2937" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Obsidian Dark Background -->
+  <rect width="800" height="200" fill="#0B0F17" rx="8"/>
+  <rect width="800" height="200" fill="url(#grid)" rx="8"/>
+
+  <!-- Left Side: Modular Isometric LEGO/Blocks Architecture Design -->
+  <g transform="translate(45, 20)">
+    <!-- Base block 1 (Cyan) -->
+    <g transform="translate(40, 90)">
+      <!-- Top Face -->
+      <path d="M 0 -15 L 30 0 L 0 15 L -30 0 Z" fill="url(#cyanGrad)"/>
+      <circle cx="-12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="-12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <!-- Left Face -->
+      <path d="M -30 0 L 0 15 L 0 45 L -30 30 Z" fill="#007A8F"/>
+      <!-- Right Face -->
+      <path d="M 0 15 L 30 0 L 30 30 L 0 45 Z" fill="#005D6E"/>
+    </g>
+
+    <!-- Stacked block 2 (Saffron) -->
+    <g transform="translate(70, 45)">
+      <!-- Top Face -->
+      <path d="M 0 -15 L 30 0 L 0 15 L -30 0 Z" fill="url(#saffronGrad)"/>
+      <circle cx="-12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="-12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <!-- Left Face -->
+      <path d="M -30 0 L 0 15 L 0 45 L -30 30 Z" fill="#B35900"/>
+      <!-- Right Face -->
+      <path d="M 0 15 L 30 0 L 30 30 L 0 45 Z" fill="#804000"/>
+    </g>
+
+    <!-- Stacked block 3 (Green) -->
+    <g transform="translate(10, 45)">
+      <!-- Top Face -->
+      <path d="M 0 -15 L 30 0 L 0 15 L -30 0 Z" fill="url(#greenGrad)"/>
+      <circle cx="-12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="-12" cy="6" r="3" fill="#FFF" opacity="0.6"/>
+      <circle cx="12" cy="-6" r="3" fill="#FFF" opacity="0.6"/>
+      <!-- Left Face -->
+      <path d="M -30 0 L 0 15 L 0 45 L -30 30 Z" fill="#0A5B04"/>
+      <!-- Right Face -->
+      <path d="M 0 15 L 30 0 L 30 30 L 0 45 Z" fill="#053302"/>
+    </g>
+
+    <!-- Connector lines representing Linux kernel node connections / pipelines -->
+    <path d="M 40 90 L 70 45" stroke="#4B5563" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <path d="M 40 90 L 10 45" stroke="#4B5563" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Right Side: Clean Tech Typography & Philosophy -->
+  <!-- Name -->
+  <text x="210" y="75" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="1.5">VARUN RAJ</text>
+  
+  <!-- Terminal Prompt / Subtitle -->
+  <text x="210" y="105" fill="#00F3FF" font-family="'Fira Code', Consolas, Monaco, 'Andale Mono', monospace" font-weight="600" font-size="16">~/data-science-ai-engineer</text>
+  
+  <!-- Motto (Indian Tech Wisdom) -->
+  <text x="210" y="140" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, Devanagari, 'Segoe UI', sans-serif" font-size="14">योगः कर्मसु कौशलम् | Excellence in Action is Discipline</text>
+  
+  <!-- Linux kernel log mimic -->
+  <text x="210" y="168" fill="#4B5563" font-family="Consolas, Monaco, monospace" font-size="11">[ OK ] Initialized modular core: lego.sys, linux-x86_64, open-source.ko</text>
+
+  <!-- Status indicator (Chinese Tech Minimal Accent) -->
+  <g transform="translate(730, 30)">
+    <circle cx="0" cy="0" r="5" fill="#10B981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="-12" y="4" fill="#9CA3AF" font-family="monospace" font-size="10" text-anchor="end">ONLINE</text>
+  </g>
+</svg>
