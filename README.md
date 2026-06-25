@@ -12,11 +12,11 @@
 
 ### 🌐 About Me
 
-I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian Institute of Information Technology (IIIT) Ranchi** (Class of 2028). I specialize in engineering modular machine learning pipelines, optimizing generative AI systems, and building decentralized web architectures.
+I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian Institute of Information Technology (IIIT) Ranchi** (Class of 2028). I specialize in engineering modular AI agent frameworks, optimizing machine learning pipelines, and building decentralized web architectures.
 
 *   🎓 **B.Tech Student** at IIIT Ranchi, focusing on Data Science & Artificial Intelligence.
-*   🔭 **Open Source Contributor** at [ComfyUI](https://github.com/comfyanonymous/ComfyUI), working on generative AI core workflow optimization.
-*   🐧 **Linux & Systems Enthusiast**, obsessed with modular architectures (like LEGO) and Unix system efficiency.
+*   🔭 **Creator of [AgentForge](https://github.com/RAJ-VARUN13/agentforge)**, an open-source, lightweight modular framework to build and orchestrate autonomous AI agents.
+*   🐧 **Linux & Systems Enthusiast**, obsessed with modular architectures (like LEGO) and Unix systems configuration.
 *   ⚡ **Deeply interested** in computer vision, time-series forecasting, and Solidity smart contracts.
 
 ---
@@ -85,9 +85,9 @@ I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian 
 
 ### 🚀 Production & Open-Source Projects
 
-*   **[ComfyUI Core Contribution](https://github.com/comfyanonymous/ComfyUI)**  
-    *Optimized diagnostic error handling regarding model paths for UNet network loading.*  
-    Standardized safety checks and reduced debugging overhead for developers running generative AI architectures locally.
+*   **[AgentForge](https://github.com/RAJ-VARUN13/agentforge)**  
+    *Modular Autonomous AI Agent Framework.*  
+    Built a lightweight, extensible orchestration platform allowing developers to swap agents, memory models, tools, and LLMs seamlessly (containerized via Docker).
 
 *   **[Blockchain Certificate Verification dApp](https://github.com/RAJ-VARUN13/blockchain-certificate-verification-dapp)**  
     *Decentralized app for cryptographic credential verification.*  

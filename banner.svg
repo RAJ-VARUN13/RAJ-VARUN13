@@ -291,30 +291,30 @@
         <rect x="5" y="25" width="200" height="155"/>
       </clipPath>
       <g class="scrolling-code" transform="translate(10, 180)">
-        <text x="0" y="0" fill="#00F3FF" opacity="0.9">&gt;&gt; git clone comfyui.git</text>
-        <text x="0" y="15" fill="#64748B">&gt;&gt; patch: unet_diagnostics.py</text>
-        <text x="0" y="30" fill="#10B981" font-weight="bold">&gt;&gt; status: 200 OK (merged)</text>
+        <text x="0" y="0" fill="#00F3FF" opacity="0.9">&gt;&gt; git clone agentforge.git</text>
+        <text x="0" y="15" fill="#64748B">&gt;&gt; docker-compose up --build -d</text>
+        <text x="0" y="30" fill="#10B981" font-weight="bold">&gt;&gt; container: agentforge_core (running)</text>
         
-        <text x="0" y="50" fill="#FF9933">&gt;&gt; solidity compile --version 0.8.20</text>
-        <text x="0" y="65" fill="#64748B">&gt;&gt; deploy: cert_verification.sol</text>
-        <text x="0" y="80" fill="#10B981" font-weight="bold">&gt;&gt; gas used: 243,180 gwei</text>
+        <text x="0" y="50" fill="#FF9933">&gt;&gt; python -m agentforge.orchestrate</text>
+        <text x="0" y="65" fill="#64748B">&gt;&gt; agent_01: executing task_delegation</text>
+        <text x="0" y="80" fill="#10B981" font-weight="bold">&gt;&gt; task status: SUCCESS (100% load)</text>
         
-        <text x="0" y="100" fill="#00F3FF">&gt;&gt; train: demand_forecaster.py</text>
-        <text x="0" y="115" fill="#64748B">&gt;&gt; epoch 150/150 - loss: 0.0024</text>
+        <text x="0" y="100" fill="#00F3FF">&gt;&gt; deploy: cert_verification.sol</text>
+        <text x="0" y="115" fill="#64748B">&gt;&gt; solidity compile --version 0.8.20</text>
         
-        <text x="0" y="135" fill="#FF9933">&gt;&gt; k-means: fit_predict(X_scaled)</text>
-        <text x="0" y="150" fill="#64748B">&gt;&gt; clusters: 5 (silhouette: 0.72)</text>
+        <text x="0" y="135" fill="#FF9933">&gt;&gt; train: demand_forecaster.py</text>
+        <text x="0" y="150" fill="#64748B">&gt;&gt; epoch 150/150 - loss: 0.0024</text>
         
         <text x="0" y="170" fill="#10B981" font-weight="bold">&gt;&gt; system load: optimal</text>
         <text x="0" y="185" fill="#00F3FF" class="cursor">&gt;&gt; kernel: core_load_complete_</text>
 
         <!-- Loop duplicate text for smooth scroll transition -->
-        <text x="0" y="210" fill="#00F3FF" opacity="0.9">&gt;&gt; git clone comfyui.git</text>
-        <text x="0" y="225" fill="#64748B">&gt;&gt; patch: unet_diagnostics.py</text>
-        <text x="0" y="240" fill="#10B981" font-weight="bold">&gt;&gt; status: 200 OK (merged)</text>
-        <text x="0" y="260" fill="#FF9933">&gt;&gt; solidity compile --version 0.8.20</text>
-        <text x="0" y="275" fill="#64748B">&gt;&gt; deploy: cert_verification.sol</text>
-        <text x="0" y="290" fill="#10B981" font-weight="bold">&gt;&gt; gas used: 243,180 gwei</text>
+        <text x="0" y="210" fill="#00F3FF" opacity="0.9">&gt;&gt; git clone agentforge.git</text>
+        <text x="0" y="225" fill="#64748B">&gt;&gt; docker-compose up --build -d</text>
+        <text x="0" y="240" fill="#10B981" font-weight="bold">&gt;&gt; container: agentforge_core (running)</text>
+        <text x="0" y="260" fill="#FF9933">&gt;&gt; python -m agentforge.orchestrate</text>
+        <text x="0" y="275" fill="#64748B">&gt;&gt; agent_01: executing task_delegation</text>
+        <text x="0" y="290" fill="#10B981" font-weight="bold">&gt;&gt; task status: SUCCESS (100% load)</text>
       </g>
     </g>
   </g>
