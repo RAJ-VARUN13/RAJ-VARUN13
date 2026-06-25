@@ -77,41 +77,9 @@ I am a **Data Science & Artificial Intelligence** undergraduate at the **Indian 
 
 ### 📊 Engineering Skills & Dynamic Proficiency
 
-<strong>Python (PyTorch, TensorFlow, Pandas, Scikit-learn)</strong>
-<span style="float: right;">95%</span>
-<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
-  <tr>
-    <td style="width: 95%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
-    <td style="width: 5%; background: #0B0F19; height: 6px; padding: 0;"></td>
-  </tr>
-</table>
-
-<strong>C++ (System Architecture & Algorithmic Optimization)</strong>
-<span style="float: right;">85%</span>
-<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
-  <tr>
-    <td style="width: 85%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
-    <td style="width: 15%; background: #0B0F19; height: 6px; padding: 0;"></td>
-  </tr>
-</table>
-
-<strong>Solidity (Ethereum, Cryptographic Verification)</strong>
-<span style="float: right;">75%</span>
-<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
-  <tr>
-    <td style="width: 75%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
-    <td style="width: 25%; background: #0B0F19; height: 6px; padding: 0;"></td>
-  </tr>
-</table>
-
-<strong>MERN Stack (React.js, Node.js, Express, MongoDB)</strong>
-<span style="float: right;">80%</span>
-<table style="width: 100%; border: 1px solid #1E293B; border-collapse: collapse; margin-bottom: 12px;">
-  <tr>
-    <td style="width: 80%; background: linear-gradient(90deg, #FF9933, #00F3FF); height: 6px; padding: 0;"></td>
-    <td style="width: 20%; background: #0B0F19; height: 6px; padding: 0;"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/skills.svg" alt="Varun Raj Skills" width="100%">
+</p>
 
 ---
 
