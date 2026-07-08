@@ -98,7 +98,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 ### Currently Building & Featured Projects
 
 <details>
-  <summary><b>AgentForge — Distributed Agent Orchestration</b></summary>
+  <summary><b>AgentForge | Distributed Agent Orchestration</b></summary>
   <br>
   
   An open-source, modular orchestrator designed to run sandboxed developer agents. Implements async job queues and diff parsers.
@@ -116,7 +116,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 </details>
 
 <details>
-  <summary><b>Enterprise Knowledge Copilot — Agentic RAG Platform</b></summary>
+  <summary><b>Enterprise Knowledge Copilot | Agentic RAG Platform</b></summary>
   <br>
   
   A secure enterprise search engine with multi-agent planning and role-based document access controls (RBAC).
@@ -133,7 +133,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 </details>
 
 <details>
-  <summary><b>IIITians Network — Community Platform</b></summary>
+  <summary><b>IIITians Network | Community Platform</b></summary>
   <br>
   
   A student community resources portal serving students across multiple IIIT campuses.
@@ -147,7 +147,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 </details>
 
 <details>
-  <summary><b>Locana — Local Software Venture</b></summary>
+  <summary><b>Locana | Software Agency in Ranchi</b></summary>
   <br>
   
   A student-led software development firm building automated web products for local enterprises.
