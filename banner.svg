@@ -1,46 +1,45 @@
 <svg viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .grid-line {
-      stroke: #0A192F;
+      stroke: #1E293B;
       stroke-width: 0.8;
-      stroke-opacity: 0.6;
+      stroke-opacity: 0.4;
     }
     .perspective-grid {
-      animation: gridScroll 8s linear infinite;
+      animation: gridScroll 10s linear infinite;
     }
     @keyframes gridScroll {
       0% { transform: translateY(0); }
       100% { transform: translateY(40px); }
     }
     
-    /* Gold Neon Glow Ref */
-    .gold-glow {
-      stroke: #D4AF37;
-      filter: url(#goldGlowRef);
-    }
-    .cyan-glow {
+    /* Neon Glow Effects */
+    .neon-cyan-glow {
       stroke: #00F3FF;
       filter: url(#cyanGlowRef);
+    }
+    .neon-green-glow {
+      stroke: #10B981;
+      filter: url(#greenGlowRef);
     }
 
     .chakra-wire {
       transform-origin: 500px 160px;
-      animation: rotateChakra 30s linear infinite;
-      stroke: #D4AF37;
+      animation: rotateChakra 25s linear infinite;
+      stroke: #10B981;
       stroke-width: 1.2;
-      stroke-opacity: 0.3;
-      filter: url(#goldGlowRef);
+      stroke-opacity: 0.25;
+      filter: url(#greenGlowRef);
     }
     @keyframes rotateChakra {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
 
-    /* Floating LEGO Wireframes */
-    .lego-wire-1 {
+    .lego-block-1 {
       animation: floatLego1 5s ease-in-out infinite;
     }
-    .lego-wire-2 {
+    .lego-block-2 {
       animation: floatLego2 6s ease-in-out infinite;
     }
     @keyframes floatLego1 {
@@ -52,27 +51,6 @@
       50% { transform: translateY(-8px) rotate(-1.5deg); }
     }
 
-    /* Oscillating Sine Wave (Data streams) */
-    .sine-wave-1 {
-      stroke: url(#waveGrad1);
-      stroke-width: 1.5;
-      stroke-dasharray: 1000;
-      stroke-dashoffset: 1000;
-      animation: drawWave 8s linear infinite;
-    }
-    .sine-wave-2 {
-      stroke: url(#waveGrad2);
-      stroke-width: 1;
-      stroke-dasharray: 1000;
-      stroke-dashoffset: -1000;
-      animation: drawWave 10s linear infinite;
-    }
-    @keyframes drawWave {
-      0% { stroke-dashoffset: 1000; }
-      100% { stroke-dashoffset: 0; }
-    }
-
-    /* Scrolling console lines */
     .scrolling-code {
       animation: scrollText 12s linear infinite;
       font-family: 'Fira Code', Consolas, monospace;
@@ -80,7 +58,21 @@
     }
     @keyframes scrollText {
       0% { transform: translateY(0px); }
-      100% { transform: translateY(-210px); }
+      100% { transform: translateY(-195px); }
+    }
+
+    /* Laser Scanning Bar */
+    .laser-scanner {
+      animation: scanLaser 6s ease-in-out infinite;
+      stroke: #10B981;
+      stroke-width: 1.5;
+      filter: url(#greenGlowRef);
+    }
+    @keyframes scanLaser {
+      0%, 100% { x1: 0; x2: 0; opacity: 0; }
+      10% { opacity: 0.8; }
+      50% { x1: 1000; x2: 1000; opacity: 0.8; }
+      90% { opacity: 0.8; }
     }
 
     .cursor {
@@ -90,50 +82,17 @@
       0%, 100% { opacity: 0; }
       50% { opacity: 1; }
     }
-
-    /* Laser wireframe scanner */
-    .scanner-line {
-      animation: scanVertical 5s ease-in-out infinite;
-      stroke: #D4AF37;
-      stroke-width: 1.5;
-      filter: url(#goldGlowRef);
-    }
-    @keyframes scanVertical {
-      0%, 100% { y1: 0; y2: 0; opacity: 0; }
-      10% { opacity: 0.8; }
-      50% { y1: 320; y2: 320; opacity: 0.8; }
-      90% { opacity: 0.8; }
-    }
   </style>
 
   <defs>
-    <!-- Background Gradient: Deep Indigo/Navy to Black -->
+    <!-- Background Gradient: Deep Slate to Black -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#020617" />
-      <stop offset="50%" stop-color="#050B18" />
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0B1329" />
       <stop offset="100%" stop-color="#010307" />
     </linearGradient>
 
-    <!-- Wave Gradients -->
-    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.1"/>
-      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#00F3FF" stop-opacity="0.1"/>
-    </linearGradient>
-    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F3FF" stop-opacity="0.1"/>
-      <stop offset="50%" stop-color="#10B981" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.1"/>
-    </linearGradient>
-
     <!-- Glowing Filters -->
-    <filter id="goldGlowRef" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
     <filter id="cyanGlowRef" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
@@ -141,166 +100,192 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+    <filter id="greenGlowRef" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Wireframe gradients -->
+    <linearGradient id="wireCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F3FF" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="wireGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
   </defs>
 
-  <!-- Deep Navy Background -->
+  <!-- Deep space background -->
   <rect width="1000" height="320" fill="url(#bgGrad)" rx="10"/>
 
-  <!-- Gold/Navy Top Divider Accent -->
-  <rect x="0" y="0" width="1000" height="4" fill="#D4AF37" />
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1000" height="4" fill="#10B981"/>
 
-  <!-- 3D Perspective Grid Floor -->
+  <!-- 3D Perspective Grid Floor (Linux Core / Wireframe Vibe) -->
   <g clip-path="url(#gridClip)">
     <clipPath id="gridClip">
-      <rect x="0" y="160" width="1000" height="160"/>
+      <rect x="0" y="180" width="1000" height="140"/>
     </clipPath>
     <g class="perspective-grid">
       <!-- Horizontal moving grid lines -->
-      <line x1="-200" y1="180" x2="1200" y2="180" class="grid-line" />
-      <line x1="-200" y1="210" x2="1200" y2="210" class="grid-line" />
+      <line x1="-200" y1="200" x2="1200" y2="200" class="grid-line" />
       <line x1="-200" y1="240" x2="1200" y2="240" class="grid-line" />
-      <line x1="-200" y1="270" x2="1200" y2="270" class="grid-line" />
-      <line x1="-200" y1="300" x2="1200" y2="300" class="grid-line" />
-      <line x1="-200" y1="330" x2="1200" y2="330" class="grid-line" />
+      <line x1="-200" y1="280" x2="1200" y2="280" class="grid-line" />
+      <line x1="-200" y1="320" x2="1200" y2="320" class="grid-line" />
+      <line x1="-200" y1="360" x2="1200" y2="360" class="grid-line" />
     </g>
-    <!-- Perspective lines originating from center -->
-    <line x1="500" y1="160" x2="-300" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="-100" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="100" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="300" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="500" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="700" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="900" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="1100" y2="320" class="grid-line" />
-    <line x1="500" y1="160" x2="1300" y2="320" class="grid-line" />
+    <!-- Perspective vanishing lines -->
+    <line x1="500" y1="180" x2="-300" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="-100" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="100" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="300" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="500" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="700" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="900" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="1100" y2="320" class="grid-line" stroke-opacity="0.8"/>
+    <line x1="500" y1="180" x2="1300" y2="320" class="grid-line" stroke-opacity="0.8"/>
   </g>
 
-  <!-- Laser scanning beam -->
-  <line x1="0" y1="0" x2="1000" y2="0" class="scanner-line" />
+  <!-- Laser Scanning bar passing through -->
+  <line x1="0" y1="0" x2="0" y2="320" class="laser-scanner" />
 
-  <!-- Oscillating Waveforms in Background (AI Training loss / Waves) -->
-  <path d="M 0 150 Q 150 90 300 150 T 600 150 T 900 150 T 1000 150" fill="none" class="sine-wave-1" />
-  <path d="M 0 150 Q 200 200 400 150 T 800 150 T 1000 150" fill="none" class="sine-wave-2" />
-
-  <!-- Rotating Wireframe Ashoka Chakra -->
+  <!-- Rotating Wireframe Ashoka Chakra in Center Background -->
   <g class="chakra-wire">
-    <circle cx="500" cy="160" r="70" stroke-width="1" stroke-dasharray="3 3" fill="none"/>
-    <circle cx="500" cy="160" r="14" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-opacity="0.6"/>
+    <circle cx="500" cy="160" r="80" stroke-width="1.5" stroke-dasharray="3 3" fill="none"/>
+    <circle cx="500" cy="160" r="16" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-opacity="0.6"/>
     <!-- 24 Spokes -->
-    <line x1="500" y1="90" x2="500" y2="230" />
-    <line x1="430" y1="160" x2="570" y2="160" />
-    <line x1="450" y1="110" x2="550" y2="210" />
-    <line x1="450" y1="210" x2="550" y2="110" />
-    <line x1="475" y1="95" x2="525" y2="225" stroke-opacity="0.7"/>
-    <line x1="525" y1="95" x2="475" y2="225" stroke-opacity="0.7"/>
-    <line x1="435" y1="135" x2="565" y2="185" stroke-opacity="0.7"/>
-    <line x1="435" y1="185" x2="565" y2="135" stroke-opacity="0.7"/>
-    <line x1="460" y1="102" x2="540" y2="218" stroke-opacity="0.4"/>
-    <line x1="540" y1="102" x2="460" y2="218" stroke-opacity="0.4"/>
-    <line x1="440" y1="122" x2="560" y2="198" stroke-opacity="0.4"/>
-    <line x1="560" y1="122" x2="440" y2="198" stroke-opacity="0.4"/>
+    <line x1="500" y1="80" x2="500" y2="240" />
+    <line x1="420" y1="160" x2="580" y2="160" />
+    <line x1="443" y1="103" x2="557" y2="217" />
+    <line x1="443" y1="217" x2="557" y2="103" />
+    <!-- Intermediate spokes -->
+    <line x1="474" y1="84" x2="526" y2="236" stroke-opacity="0.7"/>
+    <line x1="526" y1="84" x2="474" y2="236" stroke-opacity="0.7"/>
+    <line x1="424" y1="134" x2="576" y2="186" stroke-opacity="0.7"/>
+    <line x1="424" y1="186" x2="576" y2="134" stroke-opacity="0.7"/>
+    <line x1="454" y1="94" x2="546" y2="226" stroke-opacity="0.5"/>
+    <line x1="546" y1="94" x2="454" y2="226" stroke-opacity="0.5"/>
+    <line x1="434" y1="114" x2="566" y2="206" stroke-opacity="0.5"/>
+    <line x1="566" y1="114" x2="434" y2="206" stroke-opacity="0.5"/>
   </g>
 
-  <!-- Left Column: Wireframe LEGO Isometric Blocks (Modular Systems) -->
+  <!-- Left Column: Futuristic 3D Holographic Wireframe LEGO Blocks -->
   <g transform="translate(60, 45)">
-    <!-- Cyan Wireframe Block -->
-    <g class="lego-wire-1" transform="translate(40, 70)">
+    <!-- Connection matrix lines -->
+    <path d="M 40 140 L 95 100 L 140 140" stroke="#00F3FF" stroke-width="1.5" stroke-dasharray="2 2" class="neon-cyan-glow"/>
+    <path d="M 40 60 L 95 100" stroke="#10B981" stroke-width="1" stroke-opacity="0.6"/>
+
+    <!-- Cyan Wireframe Block (Lego shape floating) -->
+    <g class="lego-block-1" transform="translate(40, 70)">
+      <!-- Projection Lines -->
       <line x1="0" y1="-25" x2="0" y2="55" stroke="#00F3FF" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6"/>
+      <line x1="-45" y1="-5" x2="-45" y2="35" stroke="#00F3FF" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.4"/>
+      <line x1="45" y1="-5" x2="45" y2="35" stroke="#00F3FF" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.4"/>
+
+      <!-- Block Geometry -->
       <!-- Top Face -->
-      <path d="M 0 -25 L 45 -5 L 0 15 L -45 -5 Z" fill="#0A182F" fill-opacity="0.5" stroke="#D4AF37" stroke-width="1.8" class="gold-glow"/>
-      <!-- Studs -->
-      <path d="M -20 -12 L -10 -7 L -20 -2 L -30 -7 Z" fill="none" stroke="#D4AF37" stroke-width="1" class="gold-glow"/>
-      <circle cx="-20" cy="-7" r="1.5" fill="#D4AF37"/>
-      <path d="M 20 -12 L 30 -7 L 20 -2 L 10 -7 Z" fill="none" stroke="#D4AF37" stroke-width="1" class="gold-glow"/>
-      <circle cx="20" cy="-7" r="1.5" fill="#D4AF37"/>
-      <path d="M 0 -18 L 10 -13 L 0 -8 L -10 -13 Z" fill="none" stroke="#D4AF37" stroke-width="1" class="gold-glow"/>
-      <circle cx="0" cy="-13" r="1.5" fill="#D4AF37"/>
-      <path d="M 0 -2 L 10 3 L 0 8 L -10 3 Z" fill="none" stroke="#D4AF37" stroke-width="1" class="gold-glow"/>
-      <circle cx="0" cy="3" r="1.5" fill="#D4AF37"/>
-      <!-- Left & Right Faces -->
-      <path d="M -45 -5 L 0 15 L 0 55 L -45 35 Z" fill="#040A14" fill-opacity="0.6" stroke="#D4AF37" stroke-width="1.8"/>
-      <path d="M 0 15 L 45 -5 L 45 35 L 0 55 Z" fill="#060F1F" fill-opacity="0.6" stroke="#D4AF37" stroke-width="1.8"/>
+      <path d="M 0 -25 L 45 -5 L 0 15 L -45 -5 Z" fill="#0B1E2E" fill-opacity="0.5" stroke="url(#wireCyan)" stroke-width="1.8" class="neon-cyan-glow"/>
+      <!-- Studs on top of Lego block -->
+      <path d="M -20 -12 L -10 -7 L -20 -2 L -30 -7 Z" fill="#0F172A" stroke="#00F3FF" stroke-width="1" class="neon-cyan-glow"/>
+      <circle cx="-20" cy="-7" r="1.8" fill="#FFF"/>
+      <path d="M 20 -12 L 30 -7 L 20 -2 L 10 -7 Z" fill="#0F172A" stroke="#00F3FF" stroke-width="1" class="neon-cyan-glow"/>
+      <circle cx="20" cy="-7" r="1.8" fill="#FFF"/>
+      <path d="M 0 -18 L 10 -13 L 0 -8 L -10 -13 Z" fill="#0F172A" stroke="#00F3FF" stroke-width="1" class="neon-cyan-glow"/>
+      <circle cx="0" cy="-13" r="1.8" fill="#FFF"/>
+      <path d="M 0 -2 L 10 3 L 0 8 L -10 3 Z" fill="#0F172A" stroke="#00F3FF" stroke-width="1" class="neon-cyan-glow"/>
+      <circle cx="0" cy="3" r="1.8" fill="#FFF"/>
+
+      <!-- Left Face -->
+      <path d="M -45 -5 L 0 15 L 0 55 L -45 35 Z" fill="#07131D" fill-opacity="0.6" stroke="url(#wireCyan)" stroke-width="1.8"/>
+      <!-- Right Face -->
+      <path d="M 0 15 L 45 -5 L 45 35 L 0 55 Z" fill="#091A29" fill-opacity="0.6" stroke="url(#wireCyan)" stroke-width="1.8"/>
     </g>
 
-    <!-- Saffron Wireframe Block -->
-    <g class="lego-wire-2" transform="translate(95, 25)">
+    <!-- Green Stacked Wireframe Block (glowing/floating above) -->
+    <g class="lego-block-2" transform="translate(95, 25)">
       <!-- Top Face -->
-      <path d="M 0 -20 L 35 -5 L 0 10 L -35 -5 Z" fill="#1A1202" fill-opacity="0.4" stroke="#00F3FF" stroke-width="1.5" class="cyan-glow"/>
+      <path d="M 0 -20 L 35 -5 L 0 10 L -35 -5 Z" fill="#0F2E1E" fill-opacity="0.4" stroke="url(#wireGreen)" stroke-width="1.5" class="neon-green-glow"/>
       <!-- Studs -->
-      <path d="M -15 -10 L -7 -6 L -15 -2 L -23 -6 Z" fill="none" stroke="#00F3FF" stroke-width="1" class="cyan-glow"/>
-      <path d="M 15 -10 L 23 -6 L 15 -2 L 7 -6 Z" fill="none" stroke="#00F3FF" stroke-width="1" class="cyan-glow"/>
-      <!-- Left & Right Faces -->
-      <path d="M -35 -5 L 0 10 L 0 45 L -35 30 Z" fill="#020C14" fill-opacity="0.6" stroke="#00F3FF" stroke-width="1.5"/>
-      <path d="M 0 10 L 35 -5 L 35 30 L 0 45 Z" fill="#03101C" fill-opacity="0.6" stroke="#00F3FF" stroke-width="1.5"/>
+      <path d="M -15 -10 L -7 -6 L -15 -2 L -23 -6 Z" fill="none" stroke="#10B981" stroke-width="1" class="neon-green-glow"/>
+      <path d="M 15 -10 L 23 -6 L 15 -2 L 7 -6 Z" fill="none" stroke="#10B981" stroke-width="1" class="neon-green-glow"/>
+      <!-- Left Face -->
+      <path d="M -35 -5 L 0 10 L 0 45 L -35 30 Z" fill="#051F14" fill-opacity="0.6" stroke="url(#wireGreen)" stroke-width="1.5"/>
+      <!-- Right Face -->
+      <path d="M 0 10 L 35 -5 L 35 30 L 0 45 Z" fill="#08261A" fill-opacity="0.6" stroke="url(#wireGreen)" stroke-width="1.5"/>
     </g>
     
-    <!-- Circuits -->
-    <circle cx="40" cy="140" r="4" fill="#D4AF37" class="gold-glow"/>
-    <circle cx="95" cy="100" r="4" fill="#00F3FF" class="cyan-glow"/>
-    <circle cx="140" cy="140" r="4" fill="#10B981" />
+    <!-- Connection points -->
+    <circle cx="40" cy="140" r="4.5" fill="#00F3FF" class="neon-cyan-glow"/>
+    <circle cx="95" cy="100" r="4.5" fill="#10B981" class="neon-green-glow"/>
+    <circle cx="140" cy="140" r="4.5" fill="#10B981" class="neon-green-glow"/>
   </g>
 
   <!-- Middle: Linux Terminal Window -->
   <g transform="translate(240, 50)">
-    <!-- Terminal Background -->
-    <rect x="0" y="0" width="460" height="190" fill="#040814" fill-opacity="0.9" stroke="#0A192F" stroke-width="1.5" rx="6"/>
-    <!-- Terminal Header Dots -->
+    <!-- Linux terminal background box with glassmorphism glow -->
+    <rect x="0" y="0" width="460" height="190" fill="#040814" fill-opacity="0.9" stroke="#10B981" stroke-width="1.5" rx="6" class="neon-green-glow"/>
+    <!-- Terminal header dots -->
     <circle cx="15" cy="15" r="4" fill="#EF4444"/>
     <circle cx="28" cy="15" r="4" fill="#F59E0B"/>
     <circle cx="41" cy="15" r="4" fill="#10B981"/>
     <text x="60" y="18" fill="#475569" font-family="monospace" font-size="10" letter-spacing="1">zsh - varun@iiit-ranchi</text>
 
-    <!-- Main Title -->
+    <!-- Main Title with dual-shadow/glow -->
     <text x="15" y="55" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" letter-spacing="1">VARUN RAJ</text>
     
-    <!-- Prompt Command -->
-    <text x="15" y="85" fill="#D4AF37" font-family="'Fira Code', monospace" font-weight="600" font-size="15" filter="url(#goldGlowRef)">$ run systems-ai-orchestration.sh --prod</text>
+    <!-- Role Command line with glowing cyan text -->
+    <text x="15" y="85" fill="#00F3FF" font-family="'Fira Code', monospace" font-weight="600" font-size="15" filter="url(#cyanGlowRef)">$ run science-ai-core.sh --dev</text>
     
-    <!-- Sanskrit Motto -->
-    <text x="15" y="115" fill="#D4AF37" font-family="-apple-system, Devanagari, 'Segoe UI', sans-serif" font-weight="600" font-size="14" filter="url(#goldGlowRef)">योगः कर्मसु कौशलम्</text>
+    <!-- Motto Devotional / Sanskrit Text -->
+    <text x="15" y="115" fill="#10B981" font-family="-apple-system, Devanagari, 'Segoe UI', sans-serif" font-weight="600" font-size="14" filter="url(#greenGlowRef)">योगः कर्मसु कौशलम्</text>
     <text x="140" y="115" fill="#E2E8F0" font-family="-apple-system, sans-serif" font-size="13">| Excellence in action is discipline</text>
 
-    <!-- Specs -->
-    <text x="15" y="145" fill="#475569" font-family="monospace" font-size="11">OS: Arch Linux x86_64</text>
-    <text x="150" y="145" fill="#475569" font-family="monospace" font-size="11">Kernel: IIITR-DS-AI-2028</text>
-    <text x="15" y="168" fill="#10B981" font-family="monospace" font-weight="bold" font-size="11">Status: DEPLOYED [System integrity: optimal]</text>
-    <text x="310" y="168" fill="#D4AF37" font-family="monospace" font-size="11" class="cursor">_</text>
+    <!-- Terminal System Stats -->
+    <text x="15" y="145" fill="#64748B" font-family="monospace" font-size="11">OS: Arch Linux x86_64</text>
+    <text x="150" y="145" fill="#64748B" font-family="monospace" font-size="11">Kernel: IIITR-DS-AI-2028</text>
+    <text x="15" y="168" fill="#10B981" font-family="monospace" font-weight="bold" font-size="11" filter="url(#greenGlowRef)">Status: SUCCESSFUL_BUILD [100% Core Load]</text>
+    <text x="300" y="168" fill="#10B981" font-family="monospace" font-size="11" class="cursor">_</text>
   </g>
 
-  <!-- Right Column: Scrolling System Logs -->
+  <!-- Right Column: Scrolling Code/Matrix Terminal (Linux & Open Source) -->
   <g transform="translate(730, 50)">
-    <!-- Viewport -->
-    <rect x="0" y="0" width="210" height="190" fill="#02050A" stroke="#0A192F" stroke-width="1.5" rx="6"/>
-    <!-- Header -->
+    <!-- Terminal viewport -->
+    <rect x="0" y="0" width="210" height="190" fill="#02050A" stroke="#1E293B" stroke-width="1.5" rx="6"/>
+    <!-- Terminal header -->
     <rect x="0" y="0" width="210" height="20" fill="#090F1E" rx="6"/>
-    <text x="10" y="14" fill="#475569" font-family="monospace" font-size="9">agentforge.log</text>
+    <text x="10" y="14" fill="#64748B" font-family="monospace" font-size="9">process_logs.log</text>
+    <circle cx="195" cy="10" r="3" fill="#64748B"/>
     
-    <!-- Logs -->
+    <!-- Code scroll area -->
     <g clip-path="url(#codeClip)">
       <clipPath id="codeClip">
         <rect x="5" y="25" width="200" height="155"/>
       </clipPath>
       <g class="scrolling-code" transform="translate(10, 180)">
-        <text x="0" y="0" fill="#D4AF37" opacity="0.9">&gt;&gt; git clone agentforge.git</text>
-        <text x="0" y="15" fill="#475569">&gt;&gt; docker-compose build</text>
+        <text x="0" y="0" fill="#00F3FF" opacity="0.9">&gt;&gt; git clone agentforge.git</text>
+        <text x="0" y="15" fill="#64748B">&gt;&gt; docker-compose build</text>
         <text x="0" y="30" fill="#10B981" font-weight="bold">&gt;&gt; run: multi_agent_orchestrator</text>
         
-        <text x="0" y="50" fill="#D4AF37">&gt;&gt; init: enterprise_copilot</text>
-        <text x="0" y="65" fill="#475569">&gt;&gt; load: google_adk_nodes</text>
+        <text x="0" y="50" fill="#10B981">&gt;&gt; init: enterprise_copilot</text>
+        <text x="0" y="65" fill="#64748B">&gt;&gt; load: google_adk_nodes</text>
         <text x="0" y="80" fill="#10B981" font-weight="bold">&gt;&gt; query: postgresql (rbac ok)</text>
         
-        <text x="0" y="100" fill="#D4AF37">&gt;&gt; sync: iiitians_network</text>
-        <text x="0" y="115" fill="#475569">&gt;&gt; deploy: cert_verification.sol</text>
+        <text x="0" y="100" fill="#00F3FF">&gt;&gt; sync: iiitians_network</text>
+        <text x="0" y="115" fill="#64748B">&gt;&gt; deploy: cert_verification.sol</text>
         
-        <text x="0" y="135" fill="#D4AF37">&gt;&gt; gas used: 243,180 gwei</text>
-        <text x="0" y="150" fill="#475569">&gt;&gt; latency: 12ms (optimal)</text>
+        <text x="0" y="135" fill="#10B981">&gt;&gt; gas used: 243,180 gwei</text>
+        <text x="0" y="150" fill="#64748B">&gt;&gt; latency: 12ms (optimal)</text>
         
         <text x="0" y="170" fill="#10B981" font-weight="bold">&gt;&gt; system load: optimal</text>
-        <text x="0" y="185" fill="#D4AF37" class="cursor">&gt;&gt; agentforge: active_</text>
+        <text x="0" y="185" fill="#10B981" class="cursor">&gt;&gt; agentforge: active_</text>
 
         <!-- Loop duplicate text for smooth scroll transition -->
-        <text x="0" y="210" fill="#D4AF37" opacity="0.9">&gt;&gt; git clone agentforge.git</text>
-        <text x="0" y="225" fill="#475569">&gt;&gt; docker-compose build</text>
+        <text x="0" y="210" fill="#00F3FF" opacity="0.9">&gt;&gt; git clone agentforge.git</text>
+        <text x="0" y="225" fill="#64748B">&gt;&gt; docker-compose build</text>
         <text x="0" y="240" fill="#10B981" font-weight="bold">&gt;&gt; run: multi_agent_orchestrator</text>
       </g>
     </g>
