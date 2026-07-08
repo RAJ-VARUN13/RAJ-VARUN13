@@ -35,7 +35,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 - 📈 **Backend & AI Systems Engineering**: Designing robust backends, blockchain ledger protocols, and smart contracts for cryptographic verification.
 - 🧱 **Modular Software Design**: Implementing clean, reusable product architectures (LEGO-style) optimized for stability, performance, and auditability.
-- 🌐 **Enterprise Integration**: Deploying production-ready systems that align with global compliance, scalability, and security standards.
+- 🌐 **Enterprise Integration**: Deploying production-ready systems that align with global compliance, scaling, and security standards.
 
 #### 💼 Open To
 - Quantitative Analysis, Software Engineering, and AI/ML internships
@@ -187,47 +187,6 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 🏆 Achievements
-
-<p align="center">
-  <table align="center">
-    <thead>
-      <tr>
-        <th align="left">Recognition</th>
-        <th align="left">Details</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Smart India Hackathon (SIH 2025) Participant</b></td>
-        <td>Developed high-performance software solutions for national-level problem statements.</td>
-      </tr>
-      <tr>
-        <td><b>CodeClause Internship</b></td>
-        <td>Successfully completed all project milestones in Data Science and Unsupervised Learning.</td>
-      </tr>
-    </tbody>
-  </table>
-</p>
-
----
-
-### 📜 Certifications
-
-#### ☁️ AWS Cloud
-- <img src="https://img.shields.io/badge/AWS-Certified-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Certificate" /> AWS Academy Graduate - Cloud Foundations
-
-#### ☕ Oracle
-- <img src="https://img.shields.io/badge/Oracle-Java_SE-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Certificate" /> Java SE Programming Foundations
-
-#### 🎓 NPTEL
-- <img src="https://img.shields.io/badge/NPTEL-Elite_Silver-0072B2?style=flat-square&logo=open-education&logoColor=white" alt="NPTEL Certificate" /> Python for Data Science
-
-#### 🌐 Cisco
-- <img src="https://img.shields.io/badge/Cisco-Networking_Basics-1BA0D8?style=flat-square&logo=cisco&logoColor=white" alt="Cisco Certificate" /> Networking Academy Alumnus
-
----
-
 ### 💻 Coding Profiles
 
 <p align="center">
@@ -256,46 +215,8 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 📈 Contribution Activity Graph
+### 🐍 Code Activity Matrix
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0a192f&color=d4af37&line=d4af37&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
-</p>
-
----
-
-### 🎯 Current Focus
-
-```yaml
-Learning:
-  - Advanced Deep Reinforcement Learning
-  - Next.js 14 and Server Actions
-Building:
-  - AgentForge Multi-Agent Orchestrator
-Exploring:
-  - Zero-Knowledge Proofs (ZKP) in Web3
-Open To:
-  - Academic Research Collaborations
-```
-
----
-
-### 🛰️ Uplink & Connect
-
-<p align="center">
-  <a href="mailto:varunraj131105@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/varun-raj-iiitr" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/RAJ-VARUN13"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
-
----
-
-<p align="center">
-  <i>"Science is what we understand well enough to explain to a computer. Art is everything else we do." — Donald Knuth</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a192f&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
 </p>
