@@ -160,7 +160,6 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ### 🌍 Beyond Code
 
-*   Low-vision developer building software with accessibility first.
 *   Building software solutions for Tier-2 cities through Locana.
 *   Contributing to India's largest IIIT student network.
 
