@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a192f&height=180&section=header&text=VARUN%20RAJ&fontSize=45&fontColor=d4af37&fontAlignY=45" width="100%" alt="Header Wave" />
-</p>
+# <p align="center"><img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/banner.svg" alt="Varun Raj Banner" width="100%"></p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=d4af37&center=true&vCenter=true&width=450&height=40&lines=Data+Science+%26+AI+Engineer;Full+Stack+Developer;Fintech+Systems+Architect" alt="Typing Animation" />
