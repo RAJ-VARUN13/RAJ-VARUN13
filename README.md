@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3b0764,4c1d95,6d28d9,7c3aed,8b5cf6&height=180&section=header&text=VARUN%20RAJ&fontSize=45&fontColor=ffffff&fontAlignY=45" width="100%" alt="Header Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a192f&height=180&section=header&text=VARUN%20RAJ&fontSize=45&fontColor=d4af37&fontAlignY=45" width="100%" alt="Header Wave" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=450&height=40&lines=Data+Science+%26+AI+Engineer;Full+Stack+Developer;Open+Source+Contributor" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=d4af37&center=true&vCenter=true&width=450&height=40&lines=Data+Science+%26+AI+Engineer;Full+Stack+Developer;Fintech+Systems+Architect" alt="Typing Animation" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/IIIT_Ranchi-B.Tech_Data_Science_%26_AI-6D28D9?style=flat-square&logo=gitbook&logoColor=white" alt="Academic Badge" />
-  <img src="https://img.shields.io/badge/Location-Ranchi,_India-4C1D95?style=flat-square&logo=googlemaps&logoColor=white" alt="Location Badge" />
+  <img src="https://img.shields.io/badge/IIIT_Ranchi-B.Tech_Data_Science_%26_AI-0A192F?style=flat-square&logo=gitbook&logoColor=d4af37" alt="Academic Badge" />
+  <img src="https://img.shields.io/badge/Location-Ranchi,_India-1E293B?style=flat-square&logo=googlemaps&logoColor=white" alt="Location Badge" />
 </p>
 
 <p align="center">
@@ -20,26 +20,26 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RAJ-VARUN13&color=6d28d9&style=flat-square&label=Profile+Views" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/RAJ-VARUN13?color=4c1d95&style=flat-square&label=Followers" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/RAJ-VARUN13?color=3b0764&style=flat-square&label=Stars" alt="Stars" />
+  <img src="https://komarev.com/ghpvc/?username=RAJ-VARUN13&color=d4af37&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/RAJ-VARUN13?color=0a192f&style=flat-square&label=Followers" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/RAJ-VARUN13?color=1e293b&style=flat-square&label=Stars" alt="Stars" />
 </p>
 
 ---
 
 ### 🌐 About Me
 
-I am a highly motivated B.Tech undergraduate student specializing in **Data Science and Artificial Intelligence** at the **Indian Institute of Information Technology (IIIT) Ranchi** (Class of 2028). My work is focused on building production-ready software solutions with a product engineering mindset, merging deep learning models, modular agentic frameworks, and secure decentralized architectures.
+I am a B.Tech undergraduate student specializing in **Data Science and Artificial Intelligence** at the **Indian Institute of Information Technology (IIIT) Ranchi** (Class of 2028). I engineer secure, high-throughput software systems and machine learning pipelines designed for transactional scale, risk forecasting, and automated orchestration.
 
-- 🧠 **AI/ML Specialist**: Engineering custom model training loops, forecasting pipelines, and unsupervised customer profiling.
-- 💻 **Full Stack Developer**: Experienced in the MERN stack and clean server architectures.
-- 🧱 **Product Mindset**: Designing modular software components (LEGO-style) that optimize developer velocity and system reliability.
-- 🚀 **Open Source**: Actively building and maintaining public-facing frameworks that address systems engineering challenges.
+- 📈 **Quantitative Analytics & AI/ML**: Building predictive models, unsupervised demographic segmentations, and time-series demand forecasting engines.
+- 💻 **Secure Systems Engineering**: Designing robust backends, blockchain ledger protocols, and smart contracts for cryptographic verification.
+- 🧱 **Modular Software Design**: Implementing clean, reusable product architectures (LEGO-style) optimized for stability, performance, and auditability.
+- 🌐 **Enterprise Alignment**: Developing production-ready systems that align with global compliance, scalability, and security standards.
 
 #### 💼 Open To
-- Data Science, AI, and Software Engineering internships
-- Open-source collaborations on ML infrastructure
-- Hackathons and collaborative system design
+- Quantitative Analysis, Software Engineering, and AI/ML internships
+- Financial technology (Fintech) and cryptographic ledger collaborations
+- Institutional research and system architecture design
 
 ---
 
@@ -49,21 +49,21 @@ I am a highly motivated B.Tech undergraduate student specializing in **Data Scie
   <tr>
     <td valign="top" width="50%">
       <h4>Languages</h4>
-      <img src="https://skillicons.dev/icons?i=python,cpp,js,solidity,mysql,html,css" alt="Languages" />
+      <img src="https://skillicons.dev/icons?i=python,cpp,js,solidity,mysql,html,css&theme=dark" alt="Languages" />
     </td>
     <td valign="top" width="50%">
       <h4>Frontend Development</h4>
-      <img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,figma" alt="Frontend" />
+      <img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,figma&theme=dark" alt="Frontend" />
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
       <h4>Backend &amp; Databases</h4>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" alt="Backend" />
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" alt="Backend" />
     </td>
     <td valign="top" width="50%">
       <h4>Cloud, DevOps &amp; Tooling</h4>
-      <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,vscode" alt="DevOps" />
+      <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,vscode&theme=dark" alt="DevOps" />
     </td>
   </tr>
 </table>
@@ -74,10 +74,10 @@ I am a highly motivated B.Tech undergraduate student specializing in **Data Scie
 
 | Domain | Proficiency | Details |
 | :--- | :--- | :--- |
-| **Deep Learning** | Advanced | Model architecture design, training loops in PyTorch/TensorFlow |
-| **Time-Series Analysis** | Intermediate | Demand forecasting, smoothing, and autoregressive models |
-| **Unsupervised Learning** | Advanced | K-Means clustering, demographic profiling, and silhouette analysis |
-| **Generative AI** | Intermediate | Multi-agent orchestration, LLM integration, and prompt engineering |
+| **Deep Learning** | Advanced | Neural network architectures, custom loss functions, and optimization loops |
+| **Time-Series Analysis** | Intermediate | Predictive retail demand forecasting, smoothing techniques, and regression |
+| **Unsupervised Learning** | Advanced | Transactional customer profiling, K-Means clustering, and silhouette evaluation |
+| **Generative AI** | Intermediate | Modular agent orchestration, secure LLM prompt logic, and tooling integrations |
 
 ---
 
@@ -87,72 +87,72 @@ I am a highly motivated B.Tech undergraduate student specializing in **Data Scie
   <summary><b>🛠️ AgentForge — Modular Autonomous AI Agent Framework</b></summary>
   <br>
   
-  **AgentForge** is an open-source, lightweight, and highly modular framework designed to build, customize, and orchestrate autonomous AI agents. It provides the blueprints and modular layers to construct multi-agent systems containerized with Docker.
+  **AgentForge** is an open-source, highly modular orchestration engine designed to deploy and manage autonomous AI agents. Built with a containerized architectural framework for secure execution.
 
   | Attribute | Details |
   | :--- | :--- |
   | **Stack** | Python, Docker, Makefile |
   | **Scale** | Multi-Agent Orchestration Engine |
   | **Performance** | Asynchronous task delegation |
-  | **Security** | Sandboxed execution layers |
-  | **Impact** | Eases autonomous agent development with LEGO-like modularity |
+  | **Security** | Sandboxed container execution |
+  | **Impact** | Modular design reduces agent engineering overhead |
   | **Repository** | [RAJ-VARUN13/agentforge](https://github.com/RAJ-VARUN13/agentforge) |
 
-  *A fully extensible framework utilizing object-oriented principles to abstract agent memory, tool suites, and LLM providers. Includes complete unit testing, docker configurations, and automated dependency pipelines.*
+  *Implements object-oriented abstractions for local agent memory and LLM connector nodes. Optimized for secure developer onboarding using Docker environments.*
 </details>
 
 <details>
   <summary><b>🛡️ Blockchain Certificate Verification dApp</b></summary>
   <br>
   
-  A decentralized certificate verification application that allows organizations to securely issue and verify academic or professional credentials on the blockchain, eliminating forgery.
+  A secure decentralized ledger application designed for cryptographic credential verification. Enables cryptographically signed certificate registry and real-time on-chain audits.
 
   | Attribute | Details |
   | :--- | :--- |
   | **Stack** | Solidity, Ethereum, React.js, Express, MongoDB |
-  | **Scale** | Global on-chain cryptographic registry |
-  | **Performance** | Optimized gas usage on certificate issuance |
-  | **Security** | Smart contracts audited for standard vulnerabilities |
-  | **Impact** | Decentralized, unforgeable digital credentials |
+  | **Scale** | Global decentralized ledger registry |
+  | **Performance** | Optimized gas consumption pathways |
+  | **Security** | Smart contracts built to resist common reentrancy risks |
+  | **Impact** | Eradicates credential fraud via blockchain verification |
   | **Repository** | [RAJ-VARUN13/blockchain-certificate-verification-dapp](https://github.com/RAJ-VARUN13/blockchain-certificate-verification-dapp) |
 
-  *Utilizes unique cryptographic IDs associated with metadata stored securely. Provides a beautiful and responsive React web client for instant verification checks.*
+  *Maps certificate hashes directly to smart contracts. Offers a clean React.js interface for quick document authenticity lookup.*
 </details>
 
 <details>
   <summary><b>📈 Demand Forecasting in Retail</b></summary>
   <br>
   
-  A machine learning pipeline optimized for time-series forecasting to predict retail consumer demand patterns, enabling businesses to manage inventory dynamically.
+  A quantitative predictive modeling pipeline built to forecast inventory requirements. Reduces retail supply chain bottlenecks via high-precision time-series analysis.
 
   | Attribute | Details |
   | :--- | :--- |
   | **Stack** | Python, Scikit-learn, Pandas, NumPy, Seaborn |
-  | **Scale** | Large-scale retail transaction data ingestion |
-  | **Performance** | Minimal forecasting error (low RMSE) |
+  | **Scale** | Time-series forecasting of transactional records |
+  | **Performance** | Minimized forecasting error (low RMSE) |
   | **Security** | Clean data cleaning and sanitization |
-  | **Impact** | Data-driven supply chain optimization |
+  | **Impact** | Data-driven predictive resource allocation |
   | **Repository** | [RAJ-VARUN13/Demand-Forecasting-Retail](https://github.com/RAJ-VARUN13/Demand-Forecasting-Retail) |
 
-  *Implements data analysis pipelines, outlier detection, statistical forecasting models, and comprehensive data visualization dashboards.*
+  *Features mathematical modeling, anomaly data detection, and comprehensive distribution tracking dashboards.*
 </details>
 
 <details>
   <summary><b>👥 Customer Segmentation KMeans Engine</b></summary>
   <br>
   
-  An unsupervised machine learning system designed to group customers dynamically based on their transaction profile, demographics, and purchasing history.
+  An unsupervised data clustering system designed to segment consumer profiles based on purchasing history, transactional patterns, and demographics.
 
   | Attribute | Details |
   | :--- | :--- |
   | **Stack** | Python, K-Means Clustering, Scikit-learn, Matplotlib |
-  | **Scale** | High-density customer demographic profile sets |
+  | **Scale** | High-density consumer demographic profile sets |
   | **Performance** | Optimized cluster counts via Silhouette / Elbow methods |
-  | **Security** | Anonymized data pipeline execution |
-  | **Impact** | High-performance target marketing intelligence |
+  | **Security** | Compliant, anonymized customer data handling |
+  | **Impact** | Algorithmic target market profiling |
   | **Repository** | [RAJ-VARUN13/Customer-Segmentation-KMeans](https://github.com/RAJ-VARUN13/Customer-Segmentation-KMeans) |
 
-  *Designed and developed as part of a virtual internship, demonstrating ability to model transactional user clusters.*
+  *Formulated as part of an industry-standard virtual internship, modeling transactional user clusters to optimize marketing efficiency.*
 </details>
 
 ---
@@ -161,9 +161,9 @@ I am a highly motivated B.Tech undergraduate student specializing in **Data Scie
 
 #### 💻 Data Science Intern — CodeClause
 *November 2025 — Present*
-- Engineered unsupervised machine learning models (**K-Means Clustering**) for retail customer profiling.
-- Evaluated optimal cluster selection using Silhouette Coefficients and the Elbow Method, improving audience targeting accuracy.
-- Documented model behaviors, pipeline architectures, and analytics visualizations using Seaborn and Scikit-learn.
+- Formulated unsupervised learning pipelines (**K-Means Clustering**) to analyze transactional customer demographics.
+- Evaluated optimal mathematical cluster partitions using Silhouette Coefficients, improving statistical relevance of segments.
+- Programmed and documented clean analytical visualizations using Seaborn, Matplotlib, and Scikit-learn.
 `Skills Tag`: `Python` • `Scikit-learn` • `Data Science` • `K-Means` • `Data Analysis`
 
 ---
@@ -226,20 +226,13 @@ I am a highly motivated B.Tech undergraduate student specializing in **Data Scie
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RAJ-VARUN13&show_icons=true&title_color=8B5CF6&icon_color=7c3aed&text_color=e0e0e0&bg_color=0f0f15&border_color=6d28d9&hide_border=false" alt="Varun's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAJ-VARUN13&layout=compact&title_color=8B5CF6&icon_color=7c3aed&text_color=e0e0e0&bg_color=0f0f15&border_color=6d28d9&hide_border=false" alt="Top Languages Card" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RAJ-VARUN13&show_icons=true&theme=dark&bg_color=0a192f&title_color=d4af37&icon_color=d4af37&text_color=f8fafc&border_color=1e293b&hide_border=false" alt="Varun's GitHub Stats" />
 </p>
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=radical&background=0f0f15&ring=8B5CF6&fire=8B5CF6&currStreakNum=e0e0e0&sideNums=e0e0e0&sideLabels=94a3b8&dates=94a3b8&border=6d28d9" alt="GitHub Streak Stats" width="97%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAJ-VARUN13&layout=compact&theme=dark&bg_color=0a192f&title_color=d4af37&icon_color=d4af37&text_color=f8fafc&border_color=1e293b&hide_border=false" alt="Top Languages Card" />
 </p>
-
----
-
-### 🏆 GitHub Trophies
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RAJ-VARUN13&theme=darkhub&no-background=true&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=dark&background=0a192f&ring=d4af37&fire=d4af37&currStreakNum=f8fafc&sideNums=f8fafc&sideLabels=64748b&dates=64748b&border=1e293b" alt="GitHub Streak Stats" />
 </p>
 
 ---
@@ -247,15 +240,7 @@ I am a highly motivated B.Tech undergraduate student specializing in **Data Scie
 ### 📈 Contribution Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0f0f15&color=8B5CF6&line=7c3aed&point=ffffff&area=true&hide_border=true" width="97%" alt="Activity Graph" />
-</p>
-
----
-
-### 🐍 Contribution Grid Activity
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="97%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0a192f&color=d4af37&line=d4af37&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </p>
 
 ---
@@ -293,5 +278,5 @@ Open To:
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3b0764,4c1d95,6d28d9,7c3aed,8b5cf6&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a192f&height=100&section=footer" width="100%" alt="Footer Wave" />
 </p>
