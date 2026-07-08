@@ -138,10 +138,6 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 - Contributed backend APIs, database improvements, and production features serving students across 20+ IIITs.
 - Worked on platform reliability, optimization, and community-facing features.
 
-#### Backend Software Engineer | US Startup (Remote) *(Jan 2026 – Mar 2026)*
-- Designed backend APIs and optimized database queries.
-- Built scalable backend components for production workflows.
-
 #### Data Science Intern | CodeClause *(Nov 2025 – Present)*
 - Developed machine learning models and analytical pipelines for transactional datasets.
 
