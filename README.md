@@ -1,6 +1,10 @@
 # <p align="center"><img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/banner.svg" alt="Varun Raj Banner" width="100%"></p>
 
 <p align="center">
+  <b>Software Engineer building Backend Systems, AI Infrastructure &amp; Developer Tools</b>
+</p>
+
+<p align="center">
   <a href="https://www.iiitranchi.ac.in/" target="_blank"><img src="https://img.shields.io/badge/IIIT_Ranchi-B.Tech_Data_Science_%26_AI-0F172A?style=flat-square&logo=gitbook&logoColor=10B981" alt="Academic Badge" /></a>
   <img src="https://img.shields.io/badge/Location-Ranchi,_India-1E293B?style=flat-square&logo=googlemaps&logoColor=white" alt="Location Badge" />
 </p>
@@ -37,6 +41,42 @@ I enjoy building software that remains reliable as systems grow. My focus is on 
 
 ---
 
+### Engineering Highlights
+
+*   Built APIs serving 30,000+ community members.
+*   Designed distributed PR review pipelines.
+*   Built production software for local businesses.
+*   Collaborated with remote US startup teams.
+*   Engineered multi-agent AI systems.
+*   Active open source contributor.
+
+---
+
+### Impact Metrics
+
+```
+┌───────────────────────────┬───────────────────────────┐
+│  30,000+ Community Views  │   400+ DSA Solved (LC)    │
+├───────────────────────────┼───────────────────────────┤
+│  4 Paid Internships       │   20+ IIITs Reached       │
+├───────────────────────────┼───────────────────────────┤
+│  2 Production Clients     │   6 Student Team Members  │
+└───────────────────────────┴───────────────────────────┘
+```
+
+---
+
+### Favorite Engineering Problems
+
+*   **Distributed Systems**: Designing fault-tolerant worker nodes and query routers.
+*   **Backend APIs**: Writing scalable, rate-limited, and secure RESTful endpoints.
+*   **Event Driven Architectures**: Orchestrating job queues and background workers.
+*   **AI Infrastructure**: Designing optimized retrievers, embedding parsers, and multi-agent loops.
+*   **Developer Tools**: Designing automated review engines and CLI workflows.
+*   **Automation Systems**: Building workflow orchestrators and API synchronizers.
+
+---
+
 ### Evolution of Focus
 
 ```
@@ -55,49 +95,23 @@ I enjoy building software that remains reliable as systems grow. My focus is on 
 
 ---
 
-### Current Focus
-
-*   Building distributed backend systems
-*   Learning Kubernetes and system design
-*   Exploring production AI infrastructure
-
----
-
-### Core Technologies
-
-*   Python, FastAPI, Next.js, Redis, Docker, PostgreSQL, LangGraph, Google ADK
-
----
-
-### Currently Building
-
-*   **[Enterprise Knowledge Copilot](https://github.com/RAJ-VARUN13)** (Google ADK • FastAPI • PostgreSQL)  
-    *A secure document search and agentic RAG system built with role-based access control (RBAC).*
-*   **[AgentForge](https://github.com/RAJ-VARUN13/agentforge)** (FastAPI • Redis • LangGraph)  
-    *A distributed agent orchestration and automated PR review platform containerized with Docker.*
-*   **[IIITians Network](https://github.com/RAJ-VARUN13/IIITians-network-)** (React.js • Express • MongoDB)  
-    *Production improvements and resource database optimization for a platform serving hundreds of active student users.*
-
----
-
-### Featured Projects
+### Currently Building & Featured Projects
 
 <details>
-  <summary><b>AgentForge — Modular Autonomous AI Agent Framework</b></summary>
+  <summary><b>AgentForge — Distributed Agent Orchestration</b></summary>
   <br>
   
-  **AgentForge** is an open-source, highly modular orchestration engine designed to deploy and manage autonomous AI agents. Built with a containerized architectural framework for secure, local execution.
+  An open-source, modular orchestrator designed to run sandboxed developer agents. Implements async job queues and diff parsers.
 
   ```
   GitHub Hook ──> FastAPI Core ──> Redis Task Queue ──> LangGraph ──> AI Agents (PR Comments)
   ```
 
-  | Attribute | Details |
+  | Component | Details |
   | :--- | :--- |
-  | **Stack** | Python, FastAPI, Redis, LangGraph, Docker |
-  | **Scale** | Multi-Agent Orchestration Engine |
-  | **Performance** | Asynchronous task delegation and state management |
-  | **Security** | Sandboxed container execution |
+  | **Stack** | FastAPI, Redis, LangGraph, Docker |
+  | **Features** | Distributed Workers, Git Diff Parser, Async Processing |
+  | **Scale** | Sandboxed multi-agent orchestration |
   | **Repository** | [RAJ-VARUN13/agentforge](https://github.com/RAJ-VARUN13/agentforge) |
 </details>
 
@@ -105,46 +119,57 @@ I enjoy building software that remains reliable as systems grow. My focus is on 
   <summary><b>Enterprise Knowledge Copilot — Agentic RAG Platform</b></summary>
   <br>
   
-  A modern enterprise AI search and RAG platform integrating multi-agent reasoning, secure document access controls, and vector search.
+  A secure enterprise search engine with multi-agent planning and role-based document access controls (RBAC).
 
   ```
   Document Upload (PDF) ──> Parser/Chunker ──> Vector Embeddings ──> Retriever (PostgreSQL) ──> Google ADK ──> LLM Output
   ```
 
-  | Attribute | Details |
+  | Component | Details |
   | :--- | :--- |
-  | **Stack** | Google ADK, Python, PostgreSQL, RBAC |
-  | **Scale** | Role-based document access controls for enterprise search |
-  | **Performance** | Vectorized semantic search indexes |
-  | **Security** | Auditable security layers and strict access validation |
+  | **Stack** | Google ADK, FastAPI, PostgreSQL |
+  | **Features** | Document Parser, Vector Embeddings, Retriever, Access Validation |
+  | **Security** | Rigid data retrievability boundaries (RBAC) |
 </details>
 
 <details>
-  <summary><b>IIITians Network — Student Community Platform</b></summary>
+  <summary><b>IIITians Network — Community Platform</b></summary>
   <br>
   
-  A production-ready community and resources web platform designed for IIIT student networking, exam preparation, and campus engagement.
+  A student community resources portal serving students across multiple IIIT campuses.
 
-  | Attribute | Details |
+  | Component | Details |
   | :--- | :--- |
   | **Stack** | React.js, Express, MongoDB, Node.js |
-  | **Scale** | Multi-campus community platform with active student users |
-  | **Impact** | Connects hundreds of students to resources and alumni networks |
+  | **Metrics** | 30,000+ Platform Views, 20+ IIITs Reached |
+  | **Features** | Backend APIs, Database Optimization, Forum Indexing |
   | **Repository** | [RAJ-VARUN13/IIITians-network-](https://github.com/RAJ-VARUN13/IIITians-network-) |
+</details>
+
+<details>
+  <summary><b>Locana — Local Software Venture</b></summary>
+  <br>
+  
+  A student-led software development firm building automated web products for local enterprises.
+
+  | Component | Details |
+  | :--- | :--- |
+  | **Products** | Bike Rental Platform, AI Workflow Automation |
+  | **Features** | 2 Production Client websites, Presentations to public officials |
+  | **Repository** | [RAJ-VARUN13/Official-website-of-locana](https://github.com/RAJ-VARUN13/Official-website-of-locana) |
 </details>
 
 <details>
   <summary><b>Blockchain Certificate Verification dApp</b></summary>
   <br>
   
-  A secure decentralized ledger application designed for cryptographic credential verification. Enables cryptographically signed certificate registry and real-time on-chain audits.
+  A secure ledger application mapping cryptographically signed certificate hashes directly on-chain.
 
-  | Attribute | Details |
+  | Component | Details |
   | :--- | :--- |
   | **Stack** | Solidity, Ethereum, React.js, Express, MongoDB |
-  | **Scale** | Global decentralized ledger registry |
-  | **Performance** | Optimized gas consumption pathways |
-  | **Security** | Smart contracts built to resist common reentrancy risks |
+  | **Scale** | Global decentralized certificate registry |
+  | **Security** | Optimised gas usage with reentrancy protection |
   | **Repository** | [RAJ-VARUN13/blockchain-certificate-verification-dapp](https://github.com/RAJ-VARUN13/blockchain-certificate-verification-dapp) |
 </details>
 
@@ -153,18 +178,18 @@ I enjoy building software that remains reliable as systems grow. My focus is on 
 ### Experience
 
 #### Founder & Software Engineer | Locana *(Feb 2026 – Present)*
-- Building custom software, AI-powered applications, and automation solutions for local businesses.
-- Led end-to-end product development, client requirement gathering, deployment, and demonstrations.
-- Developed production-ready web applications and AI workflows using FastAPI, Next.js, Docker, and modern backend technologies.
+- Built production software for local businesses, including a bike rental platform and custom AI automation scripts.
+- Engineered 2 production client websites and led end-to-end client requirement gathering, deployment, and demonstrations.
+- Developed production-ready web applications using FastAPI, Next.js, and Docker.
 
 #### GTM Intern | Incerto Technologies *(Jan 2026 – Apr 2026)*
 - Launched 30+ outbound campaigns using Apollo and HeyReach targeting U.S. companies.
 - Worked directly with founders on customer discovery, lead qualification, and GTM strategy.
-- Built a strong understanding of how engineering, product, and business execution work together.
+- Analyzed product market fit and qualified sales pipelines to refine backend roadmap targets.
 
 #### Core Developer | IIITians Network *(Apr 2026 – Present)*
 - Contributed backend APIs, database improvements, and production features serving students across 20+ IIITs.
-- Worked on platform reliability, optimization, and community-facing features.
+- Optimized database query execution, reducing latencies for platform resources serving 30,000+ views.
 
 #### Data Science Intern | CodeClause *(Nov 2025 – Present)*
 - Developed machine learning models and analytical pipelines for transactional datasets.
@@ -188,14 +213,23 @@ I enjoy building software that remains reliable as systems grow. My focus is on 
 
 ### Beyond Code
 
-*   Building software solutions for Tier-2 cities through Locana.
-*   Contributing to India's largest IIIT student network.
+*   Building Locana, a student-led software venture delivering AI-powered solutions for local businesses.
+*   Researching and designing Vanaj, a technology platform aimed at preserving and promoting India's tribal heritage through responsible tourism and digital experiences.
+*   Contributing to IIITians Network, one of India's largest IIIT student communities.
 
 ---
 
-### Currently Learning & Certifications
+### Current Roadmap & Certifications
 
-*   **Learning**: Distributed Systems, System Design, Go, Kubernetes
+*   **2026 Goals**:
+    *   [ ] Kubernetes
+    *   [x] Redis
+    *   [x] FastAPI
+    *   [ ] Kafka
+    *   [ ] AWS
+    *   [ ] Terraform
+    *   [ ] Go
+    *   [ ] Rust
 *   **Certifications**: Google ADK, Claude 101, AI Fluency
 
 ---
@@ -203,9 +237,9 @@ I enjoy building software that remains reliable as systems grow. My focus is on 
 ### GitHub Analytics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RAJ-VARUN13&theme=tokyonight&cache_buster=1" alt="GitHub Streak Stats" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=RAJ-VARUN13&theme=tokyonight&cache_buster=2" alt="GitHub Streak Stats" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0f172a&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true&v=1" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0f172a&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true&v=2" width="100%" alt="Activity Graph" />
 </p>
