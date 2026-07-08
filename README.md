@@ -35,11 +35,17 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
+### 🎯 Looking For
+
+*   Backend Engineering Internships
+*   Distributed Systems & AI Infrastructure Roles
+*   Production Backend Development Projects
+
+---
+
 ### 🛠️ Core Technologies
 
-*   **Languages & Backends**: Python, C++, Solidity, JavaScript, SQL, Node.js, FastAPI
-*   **Infrastructure & Datastores**: PostgreSQL, MongoDB, Redis, Docker, Git, Linux, GitHub Actions
-*   **AI Engineering**: Google ADK, LangGraph, PyTorch, TensorFlow, Scikit-learn
+*   Python, FastAPI, Next.js, Redis, Docker, PostgreSQL, LangGraph, Google ADK
 
 ---
 
@@ -141,17 +147,33 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 💻 Coding Profiles
+### 🌐 Open Source
 
-<p align="center">
-  <a href="https://leetcode.com/u/RAJ-VARUN13/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.geeksforgeeks.org/user/rajvarun131105/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.hackerrank.com/profile/varunraj131105" target="_blank"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.codechef.com/" target="_blank"><img src="https://img.shields.io/badge/CodeChef-5B4636?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
-</p>
+*   **IIITians Network** | Contributed core backend APIs, automated community platform components, and drove reliability optimizations during Next.js migrations.
+
+---
+
+### 🏆 Coding Achievements
+
+*   **LeetCode** | [Varunrajss](https://leetcode.com/u/Varunrajss/) — 400+ Problems Solved
+*   **CodeChef** — 3★
+*   **Codeforces** — Specialist
+*   **HackerRank** | [varunraj131105](https://www.hackerrank.com/profile/varunraj131105) — Problem Solving Certification
+
+---
+
+### 🌍 Beyond Code
+
+*   Low-vision developer building software with accessibility first.
+*   Building software solutions for Tier-2 cities through Locana.
+*   Contributing to India's largest IIIT student network.
+
+---
+
+### 📚 Currently Learning & Certifications
+
+*   **Learning**: Distributed Systems, System Design, Go, Kubernetes
+*   **Certifications**: Google ADK, Claude 101, AI Fluency
 
 ---
 
@@ -163,34 +185,6 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=dark&background=0f172a&ring=10b981&fire=10b981&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=64748b&dates=64748b&border=1e293b" alt="GitHub Streak Stats" width="100%" />
-</p>
-
----
-
-### 🎯 Current Focus
-
-```yaml
-Learning:
-  - Advanced Deep Reinforcement Learning
-  - Next.js 14 and Server Actions
-Building:
-  - AgentForge Multi-Agent Orchestrator
-Exploring:
-  - Zero-Knowledge Proofs (ZKP) in Web3
-Open To:
-  - Academic Research Collaborations
-```
-
----
-
-### 🛰️ Uplink & Connect
-
-<p align="center">
-  <a href="mailto:varunraj131105@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/varun-raj-iiitr" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/RAJ-VARUN13"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---

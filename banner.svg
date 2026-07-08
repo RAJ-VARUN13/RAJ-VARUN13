@@ -237,8 +237,8 @@
     <!-- Main Title with dual-shadow/glow -->
     <text x="15" y="55" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" letter-spacing="1">VARUN RAJ</text>
     
-    <!-- Role Command line with glowing cyan text -->
-    <text x="15" y="85" fill="#00F3FF" font-family="'Fira Code', monospace" font-weight="600" font-size="15" filter="url(#cyanGlowRef)">$ run science-ai-core.sh --dev</text>
+    <!-- Subtitle: Backend Engineer • Distributed Systems • Applied AI -->
+    <text x="15" y="85" fill="#00F3FF" font-family="'Fira Code', monospace" font-weight="600" font-size="15" filter="url(#cyanGlowRef)">~/backend-distributed-systems-applied-ai</text>
     
     <!-- Motto Devotional / Sanskrit Text -->
     <text x="15" y="115" fill="#10B981" font-family="-apple-system, Devanagari, 'Segoe UI', sans-serif" font-weight="600" font-size="14" filter="url(#greenGlowRef)">योगः कर्मसु कौशलम्</text>
