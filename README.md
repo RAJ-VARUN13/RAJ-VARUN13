@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/IIIT_Ranchi-B.Tech_Data_Science_%26_AI-0F172A?style=flat-square&logo=gitbook&logoColor=10B981" alt="Academic Badge" />
+  <a href="https://www.iiitranchi.ac.in/" target="_blank"><img src="https://img.shields.io/badge/IIIT_Ranchi-B.Tech_Data_Science_%26_AI-0F172A?style=flat-square&logo=gitbook&logoColor=10B981" alt="Academic Badge" /></a>
   <img src="https://img.shields.io/badge/Location-Ranchi,_India-1E293B?style=flat-square&logo=googlemaps&logoColor=white" alt="Location Badge" />
 </p>
 
@@ -29,7 +29,7 @@
 
 My interest in AI didn't begin with a single breakthrough moment or a famous book. It started when I realized software could do more than just follow instructions—it could learn from data and help solve problems that traditional programming struggled with.
 
-As a Data Science & AI student at IIIT Ranchi (Class of 2028), I became curious about how models actually worked under the hood. That curiosity led me from experimenting with small ML projects to building backend systems, distributed applications, and more recently, multi-agent AI workflows. The more I built, the more I enjoyed understanding how intelligent systems are designed, deployed, and scaled rather than just using pre-built APIs.
+As a Data Science & AI student at [IIIT Ranchi](https://www.iiitranchi.ac.in/) (Class of 2028), I became curious about how models actually worked under the hood. That curiosity led me from experimenting with small ML projects to building backend systems, distributed applications, and more recently, multi-agent AI workflows. The more I built, the more I enjoyed understanding how intelligent systems are designed, deployed, and scaled rather than just using pre-built APIs.
 
 Today, what keeps me interested isn't AI itself—it's the opportunity to build reliable software that combines strong engineering with intelligent decision-making to solve real-world problems.
 
