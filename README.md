@@ -201,22 +201,54 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 📊 GitHub Analytics
+### 📊 GitHub Analytics & Trophies
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RAJ-VARUN13&show_icons=true&theme=dark&bg_color=0a192f&title_color=d4af37&icon_color=d4af37&text_color=f8fafc&border_color=1e293b&hide_border=false" alt="Varun's GitHub Stats" />
+  <img src="https://github-profile-trophy.vercel.app/?username=RAJ-VARUN13&theme=dracula&no-background=true&margin-w=15" alt="GitHub Trophies" />
 </p>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAJ-VARUN13&layout=compact&theme=dark&bg_color=0a192f&title_color=d4af37&icon_color=d4af37&text_color=f8fafc&border_color=1e293b&hide_border=false" alt="Top Languages Card" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=dark&background=040814&ring=d4af37&fire=d4af37&currStreakNum=f8fafc&sideNums=f8fafc&sideLabels=64748b&dates=64748b&border=1e293b" alt="GitHub Streak Stats" width="100%" />
 </p>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAJ-VARUN13&theme=dark&background=0a192f&ring=d4af37&fire=d4af37&currStreakNum=f8fafc&sideNums=f8fafc&sideLabels=64748b&dates=64748b&border=1e293b" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=040814&color=d4af37&line=d4af37&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </p>
 
 ---
 
-### 🐍 Code Activity Matrix
+### 🎯 Current Focus
+
+```yaml
+Learning:
+  - Advanced Deep Reinforcement Learning
+  - Next.js 14 and Server Actions
+Building:
+  - AgentForge Multi-Agent Orchestrator
+Exploring:
+  - Zero-Knowledge Proofs (ZKP) in Web3
+Open To:
+  - Academic Research Collaborations
+```
+
+---
+
+### 🛰️ Uplink & Connect
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
+  <a href="mailto:varunraj131105@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/varun-raj-iiitr" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/RAJ-VARUN13"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Science is what we understand well enough to explain to a computer. Art is everything else we do." — Donald Knuth</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a192f&height=100&section=footer" width="100%" alt="Footer Wave" />
 </p>
