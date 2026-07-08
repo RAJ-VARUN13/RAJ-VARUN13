@@ -193,7 +193,6 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 *   **LeetCode** | [Varunrajss](https://leetcode.com/u/Varunrajss/) — 400+ Problems Solved
 *   **CodeChef** — 3★
 *   **Codeforces** — Specialist
-*   **HackerRank** | [varunraj131105](https://www.hackerrank.com/profile/varunraj131105) — Problem Solving Certification
 
 ---
 
