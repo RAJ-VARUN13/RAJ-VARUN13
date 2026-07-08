@@ -173,7 +173,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 - Worked directly with founders on customer discovery, lead qualification, and GTM strategy.
 - Analyzed product market fit and qualified sales pipelines to refine backend roadmap targets.
 
-#### Core Developer | IIITians Network *(Apr 2026 – Present)*
+#### Software Development Team Lead | IIITians Network *(Oct 2024 – Present)*
 - Contributed backend APIs, database improvements, and production features serving students across 20+ IIITs.
 - Optimized database query execution, reducing latencies for platform resources serving 30,000+ views.
 
