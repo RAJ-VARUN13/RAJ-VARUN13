@@ -25,7 +25,7 @@
 
 ---
 
-### 🌐 About Me
+### About Me
 
 My interest in AI didn't begin with a single breakthrough moment or a famous book. It started when I realized software could do more than just follow instructions—it could learn from data and help solve problems that traditional programming struggled with.
 
@@ -35,7 +35,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 🎯 Looking For
+### Looking For
 
 *   Backend Engineering Internships
 *   Distributed Systems & AI Infrastructure Roles
@@ -43,13 +43,13 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 🛠️ Core Technologies
+### Core Technologies
 
 *   Python, FastAPI, Next.js, Redis, Docker, PostgreSQL, LangGraph, Google ADK
 
 ---
 
-### 🚀 Currently Building
+### Currently Building
 
 *   **[Enterprise Knowledge Copilot](https://github.com/RAJ-VARUN13)** (Google ADK • FastAPI • PostgreSQL)  
     *A secure document search and agentic RAG system built with role-based access control (RBAC).*
@@ -60,10 +60,10 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
 <details>
-  <summary><b>🛠️ AgentForge — Modular Autonomous AI Agent Framework</b></summary>
+  <summary><b>AgentForge — Modular Autonomous AI Agent Framework</b></summary>
   <br>
   
   **AgentForge** is an open-source, highly modular orchestration engine designed to deploy and manage autonomous AI agents. Built with a containerized architectural framework for secure, local execution.
@@ -78,7 +78,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 </details>
 
 <details>
-  <summary><b>🧠 Enterprise Knowledge Copilot — Agentic RAG Platform</b></summary>
+  <summary><b>Enterprise Knowledge Copilot — Agentic RAG Platform</b></summary>
   <br>
   
   A modern enterprise AI search and RAG platform integrating multi-agent reasoning, secure document access controls, and vector search.
@@ -92,7 +92,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 </details>
 
 <details>
-  <summary><b>🌐 IIITians Network — Student Community Platform</b></summary>
+  <summary><b>IIITians Network — Student Community Platform</b></summary>
   <br>
   
   A production-ready community and resources web platform designed for IIIT student networking, exam preparation, and campus engagement.
@@ -106,7 +106,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 </details>
 
 <details>
-  <summary><b>🛡️ Blockchain Certificate Verification dApp</b></summary>
+  <summary><b>Blockchain Certificate Verification dApp</b></summary>
   <br>
   
   A secure decentralized ledger application designed for cryptographic credential verification. Enables cryptographically signed certificate registry and real-time on-chain audits.
@@ -122,7 +122,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 💼 Experience
+### Experience
 
 #### Founder & Software Engineer | Locana *(Feb 2026 – Present)*
 - Building custom software, AI-powered applications, and automation solutions for local businesses.
@@ -143,13 +143,13 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 🌐 Open Source
+### Open Source
 
 *   **IIITians Network** | Contributed core backend APIs, automated community platform components, and drove reliability optimizations during Next.js migrations.
 
 ---
 
-### 🏆 Coding Achievements
+### Coding Achievements
 
 *   **LeetCode** | [Varunrajss](https://leetcode.com/u/Varunrajss/) — 400+ Problems Solved
 *   **CodeChef** — 3★
@@ -158,24 +158,24 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### 🌍 Beyond Code
+### Beyond Code
 
 *   Building software solutions for Tier-2 cities through Locana.
 *   Contributing to India's largest IIIT student network.
 
 ---
 
-### 📚 Currently Learning & Certifications
+### Currently Learning & Certifications
 
 *   **Learning**: Distributed Systems, System Design, Go, Kubernetes
 *   **Certifications**: Google ADK, Claude 101, AI Fluency
 
 ---
 
-### 📊 GitHub Analytics
+### GitHub Analytics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RAJ-VARUN13&theme=dark&background=0f172a&ring=10b981&fire=10b981&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=64748b&dates=64748b&border=1e293b" alt="GitHub Streak Stats" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=RAJ-VARUN13&theme=tokyonight" alt="GitHub Streak Stats" width="100%" />
 </p>
 
 <p align="center">
