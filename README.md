@@ -1,10 +1,6 @@
 # <p align="center"><img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/banner.svg" alt="Varun Raj Banner" width="100%"></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=1000&color=10B981&center=true&vCenter=true&width=600&height=40&lines=Backend+%26+AI+Systems+Engineer;Software+Engineer;Distributed+Systems+%E2%80%A2+Applied+AI" alt="Typing Animation" />
-</p>
-
-<p align="center">
   <a href="https://www.iiitranchi.ac.in/" target="_blank"><img src="https://img.shields.io/badge/IIIT_Ranchi-B.Tech_Data_Science_%26_AI-0F172A?style=flat-square&logo=gitbook&logoColor=10B981" alt="Academic Badge" /></a>
   <img src="https://img.shields.io/badge/Location-Ranchi,_India-1E293B?style=flat-square&logo=googlemaps&logoColor=white" alt="Location Badge" />
 </p>
@@ -35,11 +31,35 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ---
 
-### Looking For
+### Engineering Philosophy
 
-*   Backend Engineering Internships
-*   Distributed Systems & AI Infrastructure Roles
-*   Production Backend Development Projects
+I enjoy building software that remains reliable as systems grow. My focus is on backend engineering, distributed systems, and production AI infrastructure where correctness, scalability, and maintainability matter more than writing the most code.
+
+---
+
+### Evolution of Focus
+
+```
+2025
+│
+├── Data Science
+│
+├── Backend APIs
+│
+├── Distributed Systems
+│
+├── Multi-Agent AI
+│
+└── Production Infrastructure (Current)
+```
+
+---
+
+### Current Focus
+
+*   Building distributed backend systems
+*   Learning Kubernetes and system design
+*   Exploring production AI infrastructure
 
 ---
 
@@ -68,6 +88,10 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
   
   **AgentForge** is an open-source, highly modular orchestration engine designed to deploy and manage autonomous AI agents. Built with a containerized architectural framework for secure, local execution.
 
+  ```
+  GitHub Hook ──> FastAPI Core ──> Redis Task Queue ──> LangGraph ──> AI Agents (PR Comments)
+  ```
+
   | Attribute | Details |
   | :--- | :--- |
   | **Stack** | Python, FastAPI, Redis, LangGraph, Docker |
@@ -82,6 +106,10 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
   <br>
   
   A modern enterprise AI search and RAG platform integrating multi-agent reasoning, secure document access controls, and vector search.
+
+  ```
+  Document Upload (PDF) ──> Parser/Chunker ──> Vector Embeddings ──> Retriever (PostgreSQL) ──> Google ADK ──> LLM Output
+  ```
 
   | Attribute | Details |
   | :--- | :--- |
@@ -180,14 +208,4 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0f172a&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true&v=1" width="100%" alt="Activity Graph" />
-</p>
-
----
-
-<p align="center">
-  <i>"Science is what we understand well enough to explain to a computer. Art is everything else we do." — Donald Knuth</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=100&section=footer" width="100%" alt="Footer Wave" />
 </p>
