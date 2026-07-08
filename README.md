@@ -27,12 +27,15 @@
 
 ### 🌐 About Me
 
-I am a B.Tech undergraduate student specializing in **Data Science and Artificial Intelligence** at the **Indian Institute of Information Technology (IIIT) Ranchi** (Class of 2028). I engineer secure, high-throughput software systems and machine learning pipelines designed for transactional scale, risk forecasting, and automated orchestration.
+My interest in AI didn't begin with a single breakthrough moment or a famous book. It started when I realized software could do more than just follow instructions—it could learn from data and help solve problems that traditional programming struggled with.
 
-- 📈 **Quantitative Analytics & AI/ML**: Building predictive models, unsupervised demographic segmentations, and time-series demand forecasting engines.
-- 💻 **Secure Systems Engineering**: Designing robust backends, blockchain ledger protocols, and smart contracts for cryptographic verification.
+As a Data Science & AI student at IIIT Ranchi (Class of 2028), I became curious about how models actually worked under the hood. That curiosity led me from experimenting with small ML projects to building backend systems, distributed applications, and more recently, multi-agent AI workflows. The more I built, the more I enjoyed understanding how intelligent systems are designed, deployed, and scaled rather than just using pre-built APIs.
+
+Today, what keeps me interested isn't AI itself—it's the opportunity to build reliable software that combines strong engineering with intelligent decision-making to solve real-world problems.
+
+- 📈 **Backend & AI Systems Engineering**: Designing robust backends, blockchain ledger protocols, and smart contracts for cryptographic verification.
 - 🧱 **Modular Software Design**: Implementing clean, reusable product architectures (LEGO-style) optimized for stability, performance, and auditability.
-- 🌐 **Enterprise Alignment**: Developing production-ready systems that align with global compliance, scalability, and security standards.
+- 🌐 **Enterprise Integration**: Deploying production-ready systems that align with global compliance, scalability, and security standards.
 
 #### 💼 Open To
 - Quantitative Analysis, Software Engineering, and AI/ML internships
@@ -68,35 +71,89 @@ I am a B.Tech undergraduate student specializing in **Data Science and Artificia
 
 ---
 
-### 📊 AI / ML Expertise
+### 🧬 Core System Architecture
 
-| Domain | Proficiency | Details |
-| :--- | :--- | :--- |
-| **Deep Learning** | Advanced | Neural network architectures, custom loss functions, and optimization loops |
-| **Time-Series Analysis** | Intermediate | Predictive retail demand forecasting, smoothing techniques, and regression |
-| **Unsupervised Learning** | Advanced | Transactional customer profiling, K-Means clustering, and silhouette evaluation |
-| **Generative AI** | Intermediate | Modular agent orchestration, secure LLM prompt logic, and tooling integrations |
+```
+[ Raw Data Ingestion ] ➔ [ Data Engineering & ETL (Pandas/NumPy) ]
+                                     │
+                                     ▼
+                      [ AgentForge Multi-Agent Core ]
+                      (Modular Orchestration & Planning)
+                                     │
+       ┌─────────────────────────────┴─────────────────────────────┐
+       ▼                                                           ▼
+[ Enterprise Knowledge Copilot ]                            [ Smart Contract Minting ]
+(Google ADK, Postgres, RBAC)                                 (Solidity / Ethereum dApp)
+       │                                                           │
+       ▼                                                           ▼
+[ API Service Layer (Node/Express) ]                        [ Decentralized Verification ]
+       │                                                           │
+       └─────────────────────────────┬─────────────────────────────┘
+                                     ▼
+                      [ IIITians Network Production UI ]
+```
 
 ---
 
-### 🚀 Featured Projects
+### 📊 Engineering Skills & Dynamic Proficiency
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/skills.svg" alt="Varun Raj Skills" width="100%">
+</p>
+
+---
+
+### 🚀 Selected Projects
 
 <details>
   <summary><b>🛠️ AgentForge — Modular Autonomous AI Agent Framework</b></summary>
   <br>
   
-  **AgentForge** is an open-source, highly modular orchestration engine designed to deploy and manage autonomous AI agents. Built with a containerized architectural framework for secure execution.
+  **AgentForge** is an open-source, highly modular orchestration engine designed to deploy and manage autonomous AI agents. Built with a containerized architectural framework for secure, local execution.
 
   | Attribute | Details |
   | :--- | :--- |
-  | **Stack** | Python, Docker, Makefile |
+  | **Stack** | Python, FastAPI, Redis, LangGraph, Docker |
   | **Scale** | Multi-Agent Orchestration Engine |
-  | **Performance** | Asynchronous task delegation |
+  | **Performance** | Asynchronous task delegation and state management |
   | **Security** | Sandboxed container execution |
   | **Impact** | Modular design reduces agent engineering overhead |
   | **Repository** | [RAJ-VARUN13/agentforge](https://github.com/RAJ-VARUN13/agentforge) |
 
   *Implements object-oriented abstractions for local agent memory and LLM connector nodes. Optimized for secure developer onboarding using Docker environments.*
+</details>
+
+<details>
+  <summary><b>🧠 Enterprise Knowledge Copilot — Agentic RAG Platform</b></summary>
+  <br>
+  
+  A modern enterprise AI search and RAG platform integrating multi-agent reasoning, secure document access controls, and vector search.
+
+  | Attribute | Details |
+  | :--- | :--- |
+  | **Stack** | Google ADK, Python, PostgreSQL, RBAC |
+  | **Scale** | Role-based document access controls for enterprise search |
+  | **Performance** | Vectorized semantic search indexes |
+  | **Security** | Auditable security layers and strict access validation |
+  | **Impact** | Prevents unauthorized credential escalation in multi-agent environments |
+
+  *Coordinates multi-agent query generation, index routing, and citation grounding. Uses RBAC policies to ensure data retrieval bounds are strictly validated.*
+</details>
+
+<details>
+  <summary><b>🌐 IIITians Network — Student Community Platform</b></summary>
+  <br>
+  
+  A production-ready community and resources web platform designed for IIIT student networking, exam preparation, and campus engagement.
+
+  | Attribute | Details |
+  | :--- | :--- |
+  | **Stack** | React.js, Express, MongoDB, Node.js |
+  | **Scale** | Multi-campus community platform with active student users |
+  | **Impact** | Connects hundreds of students to resources and alumni networks |
+  | **Repository** | [RAJ-VARUN13/IIITians-network-](https://github.com/RAJ-VARUN13/IIITians-network-) |
+
+  *Maintains active user databases, forum indexing, and verified file-sharing mechanisms designed to streamline peer-to-peer resource delivery.*
 </details>
 
 <details>
@@ -115,42 +172,6 @@ I am a B.Tech undergraduate student specializing in **Data Science and Artificia
   | **Repository** | [RAJ-VARUN13/blockchain-certificate-verification-dapp](https://github.com/RAJ-VARUN13/blockchain-certificate-verification-dapp) |
 
   *Maps certificate hashes directly to smart contracts. Offers a clean React.js interface for quick document authenticity lookup.*
-</details>
-
-<details>
-  <summary><b>📈 Demand Forecasting in Retail</b></summary>
-  <br>
-  
-  A quantitative predictive modeling pipeline built to forecast inventory requirements. Reduces retail supply chain bottlenecks via high-precision time-series analysis.
-
-  | Attribute | Details |
-  | :--- | :--- |
-  | **Stack** | Python, Scikit-learn, Pandas, NumPy, Seaborn |
-  | **Scale** | Time-series forecasting of transactional records |
-  | **Performance** | Minimized forecasting error (low RMSE) |
-  | **Security** | Clean data cleaning and sanitization |
-  | **Impact** | Data-driven predictive resource allocation |
-  | **Repository** | [RAJ-VARUN13/Demand-Forecasting-Retail](https://github.com/RAJ-VARUN13/Demand-Forecasting-Retail) |
-
-  *Features mathematical modeling, anomaly data detection, and comprehensive distribution tracking dashboards.*
-</details>
-
-<details>
-  <summary><b>👥 Customer Segmentation KMeans Engine</b></summary>
-  <br>
-  
-  An unsupervised data clustering system designed to segment consumer profiles based on purchasing history, transactional patterns, and demographics.
-
-  | Attribute | Details |
-  | :--- | :--- |
-  | **Stack** | Python, K-Means Clustering, Scikit-learn, Matplotlib |
-  | **Scale** | High-density consumer demographic profile sets |
-  | **Performance** | Optimized cluster counts via Silhouette / Elbow methods |
-  | **Security** | Compliant, anonymized customer data handling |
-  | **Impact** | Algorithmic target market profiling |
-  | **Repository** | [RAJ-VARUN13/Customer-Segmentation-KMeans](https://github.com/RAJ-VARUN13/Customer-Segmentation-KMeans) |
-
-  *Formulated as part of an industry-standard virtual internship, modeling transactional user clusters to optimize marketing efficiency.*
 </details>
 
 ---

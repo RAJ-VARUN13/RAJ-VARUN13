@@ -285,15 +285,15 @@
         <text x="0" y="15" fill="#475569">&gt;&gt; docker-compose build</text>
         <text x="0" y="30" fill="#10B981" font-weight="bold">&gt;&gt; run: multi_agent_orchestrator</text>
         
-        <text x="0" y="50" fill="#D4AF37">&gt;&gt; solidity compile --version 0.8.20</text>
-        <text x="0" y="65" fill="#475569">&gt;&gt; deploy: cert_verification.sol</text>
-        <text x="0" y="80" fill="#10B981" font-weight="bold">&gt;&gt; gas used: 243,180 gwei</text>
+        <text x="0" y="50" fill="#D4AF37">&gt;&gt; init: enterprise_copilot</text>
+        <text x="0" y="65" fill="#475569">&gt;&gt; load: google_adk_nodes</text>
+        <text x="0" y="80" fill="#10B981" font-weight="bold">&gt;&gt; query: postgresql (rbac ok)</text>
         
-        <text x="0" y="100" fill="#D4AF37">&gt;&gt; train: demand_forecaster.py</text>
-        <text x="0" y="115" fill="#475569">&gt;&gt; epoch 150/150 - loss: 0.0024</text>
+        <text x="0" y="100" fill="#D4AF37">&gt;&gt; sync: iiitians_network</text>
+        <text x="0" y="115" fill="#475569">&gt;&gt; deploy: cert_verification.sol</text>
         
-        <text x="0" y="135" fill="#D4AF37">&gt;&gt; k-means: fit_predict(X_scaled)</text>
-        <text x="0" y="150" fill="#475569">&gt;&gt; clusters: 5 (silhouette: 0.72)</text>
+        <text x="0" y="135" fill="#D4AF37">&gt;&gt; gas used: 243,180 gwei</text>
+        <text x="0" y="150" fill="#475569">&gt;&gt; latency: 12ms (optimal)</text>
         
         <text x="0" y="170" fill="#10B981" font-weight="bold">&gt;&gt; system load: optimal</text>
         <text x="0" y="185" fill="#D4AF37" class="cursor">&gt;&gt; agentforge: active_</text>
