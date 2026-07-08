@@ -60,7 +60,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 ├───────────────────────────┼───────────────────────────┤
 │  4 Paid Internships       │   20+ IIITs Reached       │
 ├───────────────────────────┼───────────────────────────┤
-│  2 Production Clients     │   6 Student Team Members  │
+│  2 Production Clients     │   17 Student Team Members │
 └───────────────────────────┴───────────────────────────┘
 ```
 
