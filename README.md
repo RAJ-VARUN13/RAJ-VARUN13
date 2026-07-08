@@ -37,7 +37,7 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 
 ### Engineering Philosophy
 
-I enjoy building software that remains reliable as systems grow. My focus is on backend engineering, distributed systems, and production AI infrastructure where correctness, scalability, and maintainability matter more than writing the most code.
+Do it all to create Impact. My focus is on backend engineering, distributed systems, and production AI infrastructure where correctness, scalability, and maintainability matter more than writing the most code.
 
 ---
 
