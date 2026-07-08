@@ -175,11 +175,11 @@ Today, what keeps me interested isn't AI itself—it's the opportunity to build 
 ### GitHub Analytics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RAJ-VARUN13&theme=tokyonight" alt="GitHub Streak Stats" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=RAJ-VARUN13&theme=tokyonight&cache_buster=1" alt="GitHub Streak Stats" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0f172a&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RAJ-VARUN13&bg_color=0f172a&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true&v=1" width="100%" alt="Activity Graph" />
 </p>
 
 ---
