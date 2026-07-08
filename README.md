@@ -199,7 +199,7 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
 
 ### Beyond Code
 
-*   Building Locana, a student-led software venture delivering AI-powered solutions for local businesses.
+*   Locana, a student-led software venture delivering AI-powered solutions for local businesses.
 *   Researching and designing Vanaj, a technology platform aimed at preserving and promoting India's tribal heritage through responsible tourism and digital experiences.
 *   Contributing to IIITians Network, one of India's largest IIIT student communities.
 
