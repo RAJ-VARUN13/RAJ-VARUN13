@@ -159,20 +159,6 @@ Do it all to create Impact. My focus is on backend engineering, distributed syst
   | **Repository** | [RAJ-VARUN13/Official-website-of-locana](https://github.com/RAJ-VARUN13/Official-website-of-locana) |
 </details>
 
-<details>
-  <summary><b>Blockchain Certificate Verification dApp</b></summary>
-  <br>
-  
-  A secure ledger application mapping cryptographically signed certificate hashes directly on-chain.
-
-  | Component | Details |
-  | :--- | :--- |
-  | **Stack** | Solidity, Ethereum, React.js, Express, MongoDB |
-  | **Scale** | Global decentralized certificate registry |
-  | **Security** | Optimised gas usage with reentrancy protection |
-  | **Repository** | [RAJ-VARUN13/blockchain-certificate-verification-dapp](https://github.com/RAJ-VARUN13/blockchain-certificate-verification-dapp) |
-</details>
-
 ---
 
 ### Experience
