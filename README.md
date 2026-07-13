@@ -1,4 +1,10 @@
-# <p align="center"><img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/banner.svg" alt="Varun Raj Banner" width="100%"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/light.svg">
+    <img src="https://raw.githubusercontent.com/RAJ-VARUN13/RAJ-VARUN13/main/dark.svg" alt="Varun Raj Banner" width="100%">
+  </picture>
+</p>
 
 <p align="center">
   <b>Software Engineer building Backend Systems, AI Infrastructure &amp; Developer Tools</b>
